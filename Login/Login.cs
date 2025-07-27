@@ -1,6 +1,6 @@
 using Forms.UserdashBoard;  // use the namespace of DashboardForm
 using Microsoft.VisualBasic.ApplicationServices;
-
+using Forms.UserdashBoard.Dforms;
 
 namespace login
 {
@@ -37,9 +37,14 @@ namespace login
             //if (AuthService.ValidateUser(username, password))
             //{
             // Create and show the new form
+
+
             userdashboard dashboard = new userdashboard();
             dashboard.FormClosed += (s, args) => this.Close();
             dashboard.Show(); //or ShowDialog() if you want it to be modal
+
+           // Home home = new Home();
+            //home.Show();
 
             // Close this (login) form
             this.Hide();      // optional: hide it first
