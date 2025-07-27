@@ -21,5 +21,10 @@ namespace Forms.UserdashBoard
         {
 
         }
+
+        private void toolStripContainer1_TopToolStripPanel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

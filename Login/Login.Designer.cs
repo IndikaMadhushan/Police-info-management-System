@@ -59,14 +59,15 @@
             // 
             // splitContainer1.Panel2
             // 
-            splitContainer1.Panel2.BackColor = Color.MintCream;
+            splitContainer1.Panel2.BackColor = Color.FromArgb(128, 128, 255);
             splitContainer1.Panel2.Controls.Add(button1);
             splitContainer1.Panel2.Controls.Add(txtPassword);
             splitContainer1.Panel2.Controls.Add(label4);
             splitContainer1.Panel2.Controls.Add(txtUsername);
             splitContainer1.Panel2.Controls.Add(label3);
-            splitContainer1.Size = new Size(882, 603);
-            splitContainer1.SplitterDistance = 294;
+            splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
+            splitContainer1.Size = new Size(951, 540);
+            splitContainer1.SplitterDistance = 316;
             splitContainer1.TabIndex = 1;
             // 
             // label1
@@ -86,6 +87,7 @@
             pictureBox1.Size = new Size(243, 227);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // button1
             // 
@@ -136,7 +138,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(882, 603);
+            ClientSize = new Size(951, 540);
             Controls.Add(splitContainer1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Login";

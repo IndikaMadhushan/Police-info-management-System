@@ -1,5 +1,5 @@
-using Microsoft.VisualBasic.ApplicationServices;
 using Forms.UserdashBoard;  // use the namespace of DashboardForm
+using Microsoft.VisualBasic.ApplicationServices;
 
 
 namespace login
@@ -15,8 +15,8 @@ namespace login
 
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            string path = @"C:\Users\asus\OneDrive\Desktop\forms\login\logo.jpg";
+        {     
+            string path = @"C:\Users\asus\OneDrive\Desktop\forms\login\Resources\logo.jpg";
 
             if (File.Exists(path))
             {
@@ -36,19 +36,29 @@ namespace login
 
             //if (AuthService.ValidateUser(username, password))
             //{
-                // Create and show the new form
-                userdashboard dashboard = new userdashboard();
-                dashboard.FormClosed += (s, args) => this.Close();
-                dashboard.Show(); //or ShowDialog() if you want it to be modal
+            // Create and show the new form
+            userdashboard dashboard = new userdashboard();
+            dashboard.FormClosed += (s, args) => this.Close();
+            dashboard.Show(); //or ShowDialog() if you want it to be modal
 
-                // Close this (login) form
-                this.Hide();      // optional: hide it first
+            // Close this (login) form
+            this.Hide();      // optional: hide it first
             // actually closes the form
             //}
             //else
             //{
             //    MessageBox.Show("Invalid username or password.");
             //}
+        }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
