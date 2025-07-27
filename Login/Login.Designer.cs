@@ -33,10 +33,10 @@
             label1 = new Label();
             pictureBox1 = new PictureBox();
             button1 = new Button();
-            txtPassword = new TextBox();
             label4 = new Label();
             txtUsername = new TextBox();
             label3 = new Label();
+            txtPassword = new TextBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -100,13 +100,6 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
-            // txtPassword
-            // 
-            txtPassword.Location = new Point(209, 277);
-            txtPassword.Name = "txtPassword";
-            txtPassword.Size = new Size(363, 27);
-            txtPassword.TabIndex = 4;
-            // 
             // label4
             // 
             label4.AutoSize = true;
@@ -134,6 +127,16 @@
             label3.TabIndex = 1;
             label3.Text = "USER NAME :";
             // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(209, 277);
+            txtPassword.MaxLength = 10;
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(363, 27);
+            txtPassword.TabIndex = 4;
+            txtPassword.UseSystemPasswordChar = true;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -159,10 +162,9 @@
         private PictureBox pictureBox1;
         private Label label1;
         private Label label3;
-        private TextBox txtPassword;
         private Label label4;
         private TextBox txtUsername;
         private Button button1;
-       
+        private TextBox txtPassword;
     }
 }

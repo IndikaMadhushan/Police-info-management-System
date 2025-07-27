@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Forms": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
