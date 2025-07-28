@@ -32,11 +32,13 @@
             splitContainer1 = new SplitContainer();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            txtConnect = new Label();
             button1 = new Button();
+            txtPassword = new TextBox();
             label4 = new Label();
             txtUsername = new TextBox();
             label3 = new Label();
-            txtPassword = new TextBox();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -60,21 +62,23 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.FromArgb(128, 128, 255);
+            splitContainer1.Panel2.Controls.Add(label2);
+            splitContainer1.Panel2.Controls.Add(txtConnect);
             splitContainer1.Panel2.Controls.Add(button1);
             splitContainer1.Panel2.Controls.Add(txtPassword);
             splitContainer1.Panel2.Controls.Add(label4);
             splitContainer1.Panel2.Controls.Add(txtUsername);
             splitContainer1.Panel2.Controls.Add(label3);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
-            splitContainer1.Size = new Size(951, 540);
-            splitContainer1.SplitterDistance = 316;
+            splitContainer1.Size = new Size(1070, 567);
+            splitContainer1.SplitterDistance = 337;
             splitContainer1.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 407);
+            label1.Location = new Point(27, 424);
             label1.Name = "label1";
             label1.Size = new Size(279, 53);
             label1.TabIndex = 1;
@@ -82,29 +86,49 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(29, 77);
+            pictureBox1.Location = new Point(33, 81);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(243, 227);
+            pictureBox1.Size = new Size(273, 238);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
+            // txtConnect
+            // 
+            txtConnect.AutoSize = true;
+            txtConnect.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtConnect.Location = new Point(235, 488);
+            txtConnect.Name = "txtConnect";
+            txtConnect.Size = new Size(0, 31);
+            txtConnect.TabIndex = 6;
+            txtConnect.Click += label2_Click;
+            // 
             // button1
             // 
             button1.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(209, 418);
+            button1.Location = new Point(235, 387);
             button1.Name = "button1";
-            button1.Size = new Size(179, 44);
+            button1.Size = new Size(152, 46);
             button1.TabIndex = 5;
             button1.Text = "LOG IN";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // txtPassword
+            // 
+            txtPassword.Location = new Point(235, 291);
+            txtPassword.MaxLength = 10;
+            txtPassword.Name = "txtPassword";
+            txtPassword.PasswordChar = '*';
+            txtPassword.Size = new Size(328, 29);
+            txtPassword.TabIndex = 4;
+            txtPassword.UseSystemPasswordChar = true;
+            // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(54, 273);
+            label4.Location = new Point(61, 287);
             label4.Name = "label4";
             label4.Size = new Size(145, 31);
             label4.TabIndex = 3;
@@ -112,36 +136,37 @@
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(209, 172);
+            txtUsername.Location = new Point(235, 181);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(363, 27);
+            txtUsername.Size = new Size(328, 29);
             txtUsername.TabIndex = 2;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(54, 168);
+            label3.Location = new Point(61, 176);
             label3.Name = "label3";
             label3.Size = new Size(149, 31);
             label3.TabIndex = 1;
             label3.Text = "USER NAME :";
             // 
-            // txtPassword
+            // label2
             // 
-            txtPassword.Location = new Point(209, 277);
-            txtPassword.MaxLength = 10;
-            txtPassword.Name = "txtPassword";
-            txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(363, 27);
-            txtPassword.TabIndex = 4;
-            txtPassword.UseSystemPasswordChar = true;
+            label2.AutoSize = true;
+            label2.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(189, 43);
+            label2.Name = "label2";
+            label2.Size = new Size(359, 53);
+            label2.TabIndex = 7;
+            label2.Text = "Sri Lanka Police";
+            label2.Click += label2_Click_1;
             // 
             // Login
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(951, 540);
+            ClientSize = new Size(1070, 567);
             Controls.Add(splitContainer1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Login";
@@ -166,5 +191,7 @@
         private TextBox txtUsername;
         private Button button1;
         private TextBox txtPassword;
+        private Label txtConnect;
+        private Label label2;
     }
 }
