@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace login
+namespace Forms.UserdashBoard.Dforms
 {
-    public partial class client_registration : Form
+    public partial class PayBountyFee : Form
     {
-        public client_registration()
+        public PayBountyFee()
         {
             InitializeComponent();
-        }
-
-        private void client_registration_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
