@@ -3,7 +3,6 @@ C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.deps.j
 C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.runtimeconfig.json
 C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.dll
 C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.pdb
-C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\login.client_registration.resources
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\login.Login.resources
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.Properties.Resources.resources
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.userdashboard.resources
@@ -19,3 +18,4 @@ C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.genrun
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\ref\Forms.dll
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.sourcelink.json
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.Home.resources
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PayBountyFee.resources
