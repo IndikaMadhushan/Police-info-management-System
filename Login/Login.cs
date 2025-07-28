@@ -43,7 +43,7 @@ namespace login
             dashboard.FormClosed += (s, args) => this.Close();
             dashboard.Show(); //or ShowDialog() if you want it to be modal
 
-           // Home home = new Home();
+           // home = new Home();
             //home.Show();
 
             // Close this (login) form
