@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Forms.UserdashBoard
 {
-    public partial class userdashboard : Form
+    public partial class UserDashboard : Form
     {
-        public userdashboard()
+        public UserDashboard()
         {
             InitializeComponent();
         }
