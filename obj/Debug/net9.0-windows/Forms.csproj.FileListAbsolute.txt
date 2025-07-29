@@ -59,3 +59,5 @@ C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.Userda
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.RequestPoliceReport.resources
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.csproj.Up2Date
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.FireArmPermission.resources
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\login.LoginForm.resources
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PayBountyFee.resources
