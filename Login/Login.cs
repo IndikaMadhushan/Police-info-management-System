@@ -2,6 +2,7 @@ using Forms.UserdashBoard;  // use the namespace of DashboardForm
 using Microsoft.VisualBasic.ApplicationServices;
 using Forms.UserdashBoard.Dforms;
 using Forms.DataAccess;
+using splitContainer1;
 
 namespace login
 {
@@ -48,14 +49,20 @@ namespace login
                 // Create and show the new form
 
 
-                userdashboard dashboard = new userdashboard();
+                Userdashboard dashboard = new Userdashboard();
                 dashboard.FormClosed += (s, args) => this.Close();
-                dashboard.Show(); //or ShowDialog() if you want it to be modal
+                dashboard.Show();
 
-          
+
+                //or ShowDialog() if you want it to be modal
+
+                //FireArmPermission dashboard = new FireArmPermission();
+                //dashboard.Show();
 
                 // Close this (login) form
-                this.Hide();      // optional: hide it first
+                this.Hide();      
+                
+                // optional: hide it first
                                   // actually closes the form
                                   //}
                                   //else

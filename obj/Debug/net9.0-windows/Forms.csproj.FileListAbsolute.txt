@@ -64,3 +64,4 @@ C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.csproj
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PlaceInquries.resources
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.RequestPoliceReport.resources
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.csproj.Up2Date
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.FireArmPermission.resources

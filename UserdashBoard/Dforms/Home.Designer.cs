@@ -230,9 +230,9 @@
             label7.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label7.Location = new Point(12, 560);
             label7.Name = "label7";
-            label7.Size = new Size(99, 20);
+            label7.Size = new Size(98, 20);
             label7.TabIndex = 7;
-            label7.Text = "Date created";
+            label7.Text = "Date of Birth";
             // 
             // label6
             // 
