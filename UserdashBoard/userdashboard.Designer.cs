@@ -1,6 +1,6 @@
 ﻿namespace Forms.UserdashBoard
 {
-    partial class Userdashboard
+    partial class UserDashboard
     {
         /// <summary>
         /// Required designer variable.
