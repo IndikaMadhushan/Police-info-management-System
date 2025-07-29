@@ -9,13 +9,13 @@ namespace Forms.DataAccess
 {
     public class DatabaseConnection
     {
-        private static string _connectionString = null;
+        private static string _connectionString;
         
         static DatabaseConnection()
         {
-            _connectionString = @"Data Source=INDIKA\SQLEXPRE;Initial Catalog=PoliceInfoManagementDB;Integrated Security=True;";
+            //Connectin String
+            _connectionString = @"Data Source=INDIKA\SQLEXPRESS;Initial Catalog=PoliceInfoManagementDB;Integrated Security=True;";
         }
-
         
         public static SqlConnection getConnection()
         {

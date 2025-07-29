@@ -51,3 +51,4 @@ C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0
 =======
 C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PayBountyFee.resources
 >>>>>>> edfc744ca32bfbb5a2feb5b146d6244871d93745
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PayBountyFee.resources
