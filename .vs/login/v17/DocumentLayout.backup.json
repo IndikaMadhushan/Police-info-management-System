@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\",
+  "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\forms\\login\\userdashboard\\dforms\\requestpolicereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\requestpolicereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -37,10 +38,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\forms\\login\\userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\dataaccess\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:dataaccess\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\forms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:forms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +79,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
           "Children": [
             {
               "$type": "Bookmark",
@@ -73,11 +106,8 @@
               "EditorCaption": " [Design]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "PlaceInquries.cs",
               "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\Dforms\\PlaceInquries.cs",
@@ -87,10 +117,35 @@
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T18:37:22.006Z",
+=======
+              "DocumentIndex": 0,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\DataAccess\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "DataAccess\\DatabaseConnection.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\DataAccess\\DatabaseConnection.cs",
+              "RelativeToolTip": "DataAccess\\DatabaseConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T15:34:19.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\Home.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\Dforms\\Home.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\Home.cs",
+              "RelativeToolTip": "UserdashBoard\\Dforms\\Home.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T09:21:56.544Z",
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "PlaceInquries.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\Dforms\\PlaceInquries.cs",
@@ -104,12 +159,21 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+=======
+              "DocumentIndex": 5,
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
               "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\Login\\Login.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\Login.cs",
               "RelativeDocumentMoniker": "Login\\Login.cs",
+<<<<<<< HEAD
               "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\Login\\Login.cs",
               "RelativeToolTip": "Login\\Login.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAANAAAAAAAAAA==",
+=======
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\Login.cs",
+              "RelativeToolTip": "Login\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAXAAAAAAAAAA==",
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T07:12:38.02Z",
               "EditorCaption": ""
@@ -118,11 +182,11 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "userdashboard.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\userdashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\userdashboard.cs",
               "RelativeDocumentMoniker": "UserdashBoard\\userdashboard.cs",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\userdashboard.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\userdashboard.cs",
               "RelativeToolTip": "UserdashBoard\\userdashboard.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-26T12:56:54.418Z",
               "EditorCaption": ""
@@ -130,6 +194,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
+<<<<<<< HEAD
               "Title": "userdashboard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\userdashboard.cs",
               "RelativeDocumentMoniker": "UserdashBoard\\userdashboard.cs",
@@ -158,10 +223,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+=======
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
               "Title": "Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\Dforms\\Home.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\Home.cs",
               "RelativeDocumentMoniker": "UserdashBoard\\Dforms\\Home.cs",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\Dforms\\Home.cs [Design]",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\Home.cs [Design]",
               "RelativeToolTip": "UserdashBoard\\Dforms\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T08:08:08.153Z",
@@ -169,6 +236,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "Home.cs",
               "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\Dforms\\Home.cs",
@@ -176,12 +244,33 @@
               "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\UserdashBoard\\Dforms\\Home.cs",
               "RelativeToolTip": "UserdashBoard\\Dforms\\Home.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+=======
+              "DocumentIndex": 2,
+              "Title": "userdashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\userdashboard.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\userdashboard.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\userdashboard.cs [Design]",
+              "RelativeToolTip": "UserdashBoard\\userdashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T12:11:40.323Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\Login.cs",
+              "RelativeDocumentMoniker": "Login\\Login.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\Login.cs [Design]",
+              "RelativeToolTip": "Login\\Login.cs [Design]",
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T09:21:56.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 9,
               "Title": "Login.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\forms\\login\\Login\\Login.cs",
@@ -190,6 +279,17 @@
               "RelativeToolTip": "Login\\Login.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-27T07:12:34.192Z"
+=======
+              "DocumentIndex": 7,
+              "Title": "Forms.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Forms.csproj",
+              "RelativeDocumentMoniker": "Forms.csproj",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Forms.csproj",
+              "RelativeToolTip": "Forms.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T07:15:38.448Z"
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
             }
           ]
         }
