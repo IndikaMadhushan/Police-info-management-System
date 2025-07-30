@@ -50,51 +50,19 @@ namespace login
             if (user != null)
             {
                 Form dashboard = DashboardFactory.GetDashboard(user);
+                this.Hide();
                 dashboard.Show();
-                this.Hide(); // Hide the login form
+                dashboard.FormClosed += (s, args) => this.Close();
+                // // Hide the login form
             }
             else
             {
                 MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            //if (user != null)
-            //{
-            //    Form dashboard = DashboardFactory.GetDashboard(user);
-            //    dashboard.Show();
-            //    this.Hide(); // Hide the login form
-            //} else
-            //{
-            //    MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            //}
 
 
-
-
-
-
-
-            //Database conneciona start
-
-            // bool test = DatabaseConnection.TestConnectin();
-
-            //if (test)
-            //{
-            //    Console.WriteLine("Database connection successful.");
-
-            //    string username = txtUsername.Text;
-            //    string password = txtPassword.Text;
-
-            //    //if (AuthService.ValidateUser(username, password))
-            //    //{
-            //    // Create and show the new form
-
-
-              //UserDashboard dashboard = new UserDashboard();
-              //dashboard.FormClosed += (s, args) => this.Close();
-              //dashboard.Show(); //or ShowDialog() if you want it to be modal
-
-
+            
 
             //    // Close this (login) form
             //    this.Hide();      // optional: hide it first
