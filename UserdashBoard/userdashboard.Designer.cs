@@ -1,4 +1,5 @@
-﻿namespace Forms.UserdashBoard
+﻿
+namespace Forms.UserdashBoard
 {
     partial class UserDashboard
     {
@@ -41,7 +42,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(192, 192, 255);
+            panel1.BackColor = Color.FromArgb(128, 128, 255);
             panel1.Controls.Add(buttonLogout);
             panel1.Controls.Add(buttonInquiries);
             panel1.Controls.Add(buttonFirearm);
@@ -125,17 +126,23 @@
             panel2.Size = new Size(890, 665);
             panel2.TabIndex = 1;
             // 
-            // Userdashboard
+            // UserDashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1211, 667);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Name = "Userdashboard";
+            Name = "UserDashboard";
             Text = "DashBoard";
+            Load += this.UserDashboard_Load_1;
             panel1.ResumeLayout(false);
             ResumeLayout(false);
+        }
+
+        private void UserDashboard_Load_1(object sender, EventArgs e)
+        {
+           
         }
 
         #endregion
