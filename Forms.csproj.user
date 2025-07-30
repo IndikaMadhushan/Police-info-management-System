@@ -25,7 +25,7 @@
     <Compile Update="UserdashBoard\Dforms\RequestPoliceReport.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UserdashBoard\Userdashboard.cs">
+    <Compile Update="UserdashBoard\userdashboard.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

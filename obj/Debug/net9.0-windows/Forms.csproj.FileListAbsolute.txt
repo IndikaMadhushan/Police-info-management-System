@@ -61,3 +61,37 @@ C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0
 C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.AdminDashboard.AdminHomeForm.resources
 C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.ChangePassword.resources
 C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.FireArmPermission.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\Forms.exe
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\Forms.deps.json
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\Forms.runtimeconfig.json
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\Forms.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\Forms.pdb
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\System.Data.SqlClient.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\bin\Debug\net9.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.csproj.AssemblyReference.cache
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\login.LoginForm.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.Properties.Resources.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.UserdashBoard.AdminDashboard.AdminHomeForm.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.ChangePassword.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.FireArmPermission.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.Home.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PayBountyFee.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PlaceInquries.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.RequestPoliceReport.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.UserdashBoard.UserDashboard.resources
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.csproj.GenerateResource.cache
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.sourcelink.json
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.csproj.Up2Date
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\refint\Forms.dll
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.pdb
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\Forms.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Desktop\PoliceManagement\obj\Debug\net9.0-windows\ref\Forms.dll
