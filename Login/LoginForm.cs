@@ -50,8 +50,10 @@ namespace login
             if (user != null)
             {
                 Form dashboard = DashboardFactory.GetDashboard(user);
+                this.Hide();
                 dashboard.Show();
-                this.Hide(); // Hide the login form
+                dashboard.FormClosed += (s, args) => this.Close();
+                // // Hide the login form
             }
             else
             {
@@ -67,11 +69,6 @@ namespace login
             //{
             //    MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             //}
-
-
-
-
-
 
 
             //Database conneciona start
