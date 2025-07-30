@@ -34,7 +34,7 @@ namespace login
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //string password = "User@123";
+            //string password = "Admin@123";
             //string hashed = PasswordHasher.HashPassword(password);
             //txtUsername.Text = ("Hashed password: " + hashed);
 
@@ -59,6 +59,7 @@ namespace login
             {
                 MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
 
 
 

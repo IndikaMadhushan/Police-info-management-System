@@ -95,6 +95,7 @@
             splitContainer1.Panel1.Controls.Add(label2);
             splitContainer1.Panel1.Controls.Add(label1);
             splitContainer1.Panel1.Controls.Add(pictureBox1);
+            splitContainer1.Panel1.Paint += splitContainer1_Panel1_Paint;
             // 
             // splitContainer1.Panel2
             // 
@@ -107,50 +108,64 @@
             // 
             // textaddress
             // 
+            textaddress.Enabled = false;
             textaddress.Location = new Point(135, 312);
             textaddress.Name = "textaddress";
+            textaddress.ReadOnly = true;
             textaddress.Size = new Size(297, 27);
             textaddress.TabIndex = 21;
             // 
             // textDate
             // 
+            textDate.Enabled = false;
             textDate.Location = new Point(135, 557);
             textDate.Name = "textDate";
+            textDate.ReadOnly = true;
             textDate.Size = new Size(297, 27);
             textDate.TabIndex = 20;
             // 
             // textmail
             // 
+            textmail.Enabled = false;
             textmail.Location = new Point(139, 501);
             textmail.Name = "textmail";
+            textmail.ReadOnly = true;
             textmail.Size = new Size(297, 27);
             textmail.TabIndex = 19;
             // 
             // texttel
             // 
+            texttel.Enabled = false;
             texttel.Location = new Point(135, 435);
             texttel.Name = "texttel";
+            texttel.ReadOnly = true;
             texttel.Size = new Size(297, 27);
             texttel.TabIndex = 18;
             // 
             // textjob
             // 
+            textjob.Enabled = false;
             textjob.Location = new Point(135, 370);
             textjob.Name = "textjob";
+            textjob.ReadOnly = true;
             textjob.Size = new Size(297, 27);
             textjob.TabIndex = 17;
             // 
             // textid
             // 
+            textid.Enabled = false;
             textid.Location = new Point(135, 251);
             textid.Name = "textid";
+            textid.ReadOnly = true;
             textid.Size = new Size(297, 27);
             textid.TabIndex = 16;
             // 
             // textname
             // 
+            textname.Enabled = false;
             textname.Location = new Point(135, 182);
             textname.Name = "textname";
+            textname.ReadOnly = true;
             textname.Size = new Size(297, 27);
             textname.TabIndex = 15;
             // 
@@ -316,6 +331,7 @@
             // 
             // listView2
             // 
+            listView2.Enabled = false;
             listView2.Location = new Point(6, 26);
             listView2.Name = "listView2";
             listView2.Size = new Size(390, 240);
@@ -335,6 +351,7 @@
             // 
             // listView1
             // 
+            listView1.Enabled = false;
             listView1.Location = new Point(6, 26);
             listView1.Name = "listView1";
             listView1.Size = new Size(390, 223);

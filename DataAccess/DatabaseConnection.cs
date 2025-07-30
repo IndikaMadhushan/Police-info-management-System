@@ -14,7 +14,7 @@ namespace Forms.DataAccess
         static DatabaseConnection()
         {
             //Connectin String
-            _connectionString = @"Data Source=Indika\SQLEXPRESS;Initial Catalog=PoliceInfoManagementDB;Integrated Security=True;";
+            _connectionString = @"Data Source=LAPTOP-1017J42I;Initial Catalog=PoliceInfoManagementDB;Integrated Security=True;";
         }
         
         public static SqlConnection getConnection()
