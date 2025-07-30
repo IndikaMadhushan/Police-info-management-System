@@ -4,6 +4,15 @@
     <Compile Update="Login\LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="UserdashBoard\AdminDashboard\AdminHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserdashBoard\Dforms\ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserdashBoard\Dforms\FireArmPermission.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="UserdashBoard\Dforms\Home.cs">
       <SubType>Form</SubType>
     </Compile>

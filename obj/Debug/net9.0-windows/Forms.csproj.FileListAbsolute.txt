@@ -58,3 +58,6 @@ C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0
 C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.RequestPoliceReport.resources
 C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.AdminDashBoard.AdminDashBoardForm.resources
 C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\login.LoginForm.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.AdminDashboard.AdminHomeForm.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.ChangePassword.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.FireArmPermission.resources

@@ -1,11 +1,13 @@
-﻿using System;
+﻿using Forms.Models;
+using Forms.UserdashBoard;
+using Forms.UserdashBoard.AdminDashboard;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Forms.Models;
-using Forms.UserdashBoard;
-
+using Forms.UserdashBoard.Dforms;
+using Forms.UserdashBoard.AdminDashboard;
 
 
 
@@ -17,9 +19,11 @@ namespace Forms.Factories
         {
             return user.Role switch
             {
-               // "Admin" => new AdminDashBoardForm(user),
+
+                "Admin" => new AdminHomeForm(user),
                 "User" => new UserDashboard(user),
                 _ => null
+
             };
         }
     }
