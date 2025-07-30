@@ -7,9 +7,6 @@ using System.Data.SqlClient;
 using Forms.DataAccess;
 using Forms.Models;
 
-
-
-
 namespace Forms.BusinessLogic
 {
     public static class AuthenticationService
@@ -19,7 +16,7 @@ namespace Forms.BusinessLogic
             {
                 using (var conn = DatabaseConnection.getConnection())
                 {
-                    string query = "SELECT user_id, password_hash, password_salt, role FROM Users WHERE username = @username AND is_active = 1";
+                    string query = "SELECT user_id, password_hash,  role FROM Users WHERE username = @username AND is_active = 1";
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@username", username);
@@ -30,10 +27,9 @@ namespace Forms.BusinessLogic
                             {
                                 int userId = reader.GetInt32(0);
                                 string storedHash = reader.GetString(1);
-                                string storedSalt = reader.GetString(2);
-                                string role = reader.GetString(3);
+                                string role = reader.GetString(2);
 
-                                string hashedInput = PasswordHasher.HashPassword(password, storedSalt);
+                                string hashedInput = PasswordHasher.HashPassword(password);
 
                                 if (hashedInput == storedHash)
                                 {
@@ -45,6 +41,5 @@ namespace Forms.BusinessLogic
                 }
                 return null; // Invalid username or password
             }
-        
     }
 }

@@ -1,0 +1,63 @@
+C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.exe
+C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.deps.json
+C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.runtimeconfig.json
+C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.dll
+C:\Users\asus\OneDrive\Desktop\forms\login\bin\Debug\net9.0-windows\Forms.pdb
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\login.Login.resources
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.Properties.Resources.resources
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.userdashboard.resources
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.csproj.GenerateResource.cache
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.AssemblyInfoInputs.cache
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.AssemblyInfo.cs
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.csproj.CoreCompileInputs.cache
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.dll
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\refint\Forms.dll
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.pdb
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.genruntimeconfig.cache
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\ref\Forms.dll
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.sourcelink.json
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.Home.resources
+<<<<<<< HEAD
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\login.client_registration.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\login.Login.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.Properties.Resources.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.Home.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.userdashboard.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.csproj.GenerateResource.cache
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.AssemblyInfo.cs
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.sourcelink.json
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\refint\Forms.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.pdb
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\Forms.exe
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\Forms.deps.json
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\Forms.runtimeconfig.json
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\Forms.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\Forms.pdb
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\System.Data.SqlClient.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\bin\Debug\net9.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.csproj.AssemblyReference.cache
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.csproj.Up2Date
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.genruntimeconfig.cache
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\ref\Forms.dll
+=======
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PayBountyFee.resources
+C:\Users\asus\OneDrive\Desktop\forms\login\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.RequestPolliceReport.resources
+>>>>>>> edfc744ca32bfbb5a2feb5b146d6244871d93745
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PayBountyFee.resources
+>>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PlaceInquries.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.RequestPoliceReport.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.AdminDashBoard.AdminDashBoardForm.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\login.LoginForm.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.AdminDashboard.AdminHomeForm.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.ChangePassword.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.FireArmPermission.resources
