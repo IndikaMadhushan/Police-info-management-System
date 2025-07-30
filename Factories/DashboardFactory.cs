@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Forms.Models;
 using Forms.UserdashBoard;
-;
+
+
 
 
 namespace Forms.Factories
@@ -16,8 +17,8 @@ namespace Forms.Factories
         {
             return user.Role switch
             {
-                "Admin" => new AdminDashboardForm(user),
-                "User" => new UserDashboardForm(user),
+               // "Admin" => new AdminDashBoardForm(user),
+                "User" => new UserDashboard(user),
                 _ => null
             };
         }

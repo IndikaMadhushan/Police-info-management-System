@@ -34,6 +34,13 @@ namespace login
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //string password = "User@123";
+            //string hashed = PasswordHasher.HashPassword(password);
+            //txtUsername.Text = ("Hashed password: " + hashed);
+
+            // //Admin = userName = admin3; password = Admin@123
+            //  //User = userName = user; password = User@123
+
             string username = txtUsername.Text.Trim();
             string password = txtPassword.Text.Trim();
 
@@ -44,7 +51,8 @@ namespace login
                 Form dashboard = DashboardFactory.GetDashboard(user);
                 dashboard.Show();
                 this.Hide(); // Hide the login form
-            } else
+            }
+            else
             {
                 MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -54,9 +62,9 @@ namespace login
 
 
 
-                //Database conneciona start
+            //Database conneciona start
 
-               // bool test = DatabaseConnection.TestConnectin();
+            // bool test = DatabaseConnection.TestConnectin();
 
             //if (test)
             //{
@@ -74,7 +82,7 @@ namespace login
             //    dashboard.FormClosed += (s, args) => this.Close();
             //    dashboard.Show(); //or ShowDialog() if you want it to be modal
 
-          
+
 
             //    // Close this (login) form
             //    this.Hide();      // optional: hide it first

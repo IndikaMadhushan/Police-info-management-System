@@ -56,3 +56,5 @@ C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0
 >>>>>>> 78d9751b4c47e16eaa14d0a16df88cf963d58ed9
 C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.PlaceInquries.resources
 C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.UserdashBoard.Dforms.RequestPoliceReport.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\Forms.AdminDashBoard.AdminDashBoardForm.resources
+C:\Users\Dell\Desktop\rad project\Police-info-management-System\obj\Debug\net9.0-windows\login.LoginForm.resources

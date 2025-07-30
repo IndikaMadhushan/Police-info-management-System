@@ -3,44 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\businesslogic\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:businesslogic\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\dataaccess\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:dataaccess\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\factories\\dashboardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:factories\\dashboardfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\userdashboard\\dforms\\placeinquries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\placeinquries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\businesslogic\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:businesslogic\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\admindashboard\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:admindashboard\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\admindashboard\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:admindashboard\\admindashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\forms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:forms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\userdashboard\\dforms\\placeinquries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\placeinquries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:login\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\dell\\desktop\\rad project\\police-info-management-system\\forms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:forms.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,43 +86,173 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlaceInquries.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\PlaceInquries.cs",
-              "RelativeDocumentMoniker": "UserdashBoard\\Dforms\\PlaceInquries.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\PlaceInquries.cs [Design]",
-              "RelativeToolTip": "UserdashBoard\\Dforms\\PlaceInquries.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Login\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\LoginForm.cs",
+              "RelativeToolTip": "Login\\LoginForm.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvyYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T10:22:06.097Z"
+              "WhenOpened": "2025-07-27T07:12:38.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\BusinessLogic\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\BusinessLogic\\PasswordHasher.cs",
+              "RelativeToolTip": "BusinessLogic\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:18:16.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-29T03:20:59.984Z"
+              "WhenOpened": "2025-07-29T03:20:59.984Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\BusinessLogic\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "BusinessLogic\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\BusinessLogic\\AuthenticationService.cs",
+              "RelativeToolTip": "BusinessLogic\\AuthenticationService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:21:53.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Factories\\DashboardFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\DashboardFactory.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Factories\\DashboardFactory.cs",
+              "RelativeToolTip": "Factories\\DashboardFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:37:52.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminDashBoardForm.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\AdminDashBoard\\AdminDashBoardForm.cs",
+              "RelativeDocumentMoniker": "AdminDashBoard\\AdminDashBoardForm.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\AdminDashBoard\\AdminDashBoardForm.cs",
+              "RelativeToolTip": "AdminDashBoard\\AdminDashBoardForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T16:22:52.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DatabaseConnection.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\DataAccess\\DatabaseConnection.cs",
               "RelativeDocumentMoniker": "DataAccess\\DatabaseConnection.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\DataAccess\\DatabaseConnection.cs",
               "RelativeToolTip": "DataAccess\\DatabaseConnection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-28T15:34:19.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Login\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Login\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T17:10:33.781Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "UserDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\UserDashboard.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\UserDashboard.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\UserDashboard.cs",
+              "RelativeToolTip": "UserdashBoard\\UserDashboard.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T12:56:54.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminDashBoardForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\AdminDashBoard\\AdminDashBoardForm.cs",
+              "RelativeDocumentMoniker": "AdminDashBoard\\AdminDashBoardForm.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\AdminDashBoard\\AdminDashBoardForm.cs [Design]",
+              "RelativeToolTip": "AdminDashBoard\\AdminDashBoardForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T16:14:33.428Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Forms.csproj",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Forms.csproj",
+              "RelativeDocumentMoniker": "Forms.csproj",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Forms.csproj",
+              "RelativeToolTip": "Forms.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-28T07:15:38.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T15:15:06.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlaceInquries.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\PlaceInquries.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\Dforms\\PlaceInquries.cs",
+              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\PlaceInquries.cs [Design]",
+              "RelativeToolTip": "UserdashBoard\\Dforms\\PlaceInquries.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-29T10:22:06.097Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Home.cs",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\Home.cs",
               "RelativeDocumentMoniker": "UserdashBoard\\Dforms\\Home.cs",
@@ -115,74 +265,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\Login.cs",
-              "RelativeDocumentMoniker": "Login\\Login.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\Login.cs",
-              "RelativeToolTip": "Login\\Login.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T07:12:38.02Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "userdashboard.cs",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\userdashboard.cs",
-              "RelativeDocumentMoniker": "UserdashBoard\\userdashboard.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\userdashboard.cs",
-              "RelativeToolTip": "UserdashBoard\\userdashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T12:56:54.418Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "Home.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\Home.cs",
               "RelativeDocumentMoniker": "UserdashBoard\\Dforms\\Home.cs",
               "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\Dforms\\Home.cs [Design]",
               "RelativeToolTip": "UserdashBoard\\Dforms\\Home.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T08:08:08.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "userdashboard.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\userdashboard.cs",
-              "RelativeDocumentMoniker": "UserdashBoard\\userdashboard.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\UserdashBoard\\userdashboard.cs [Design]",
-              "RelativeToolTip": "UserdashBoard\\userdashboard.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-26T12:11:40.323Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\Login.cs",
-              "RelativeDocumentMoniker": "Login\\Login.cs",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Login\\Login.cs [Design]",
-              "RelativeToolTip": "Login\\Login.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-27T07:12:34.192Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Forms.csproj",
-              "DocumentMoniker": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Forms.csproj",
-              "RelativeDocumentMoniker": "Forms.csproj",
-              "ToolTip": "C:\\Users\\Dell\\Desktop\\rad project\\Police-info-management-System\\Forms.csproj",
-              "RelativeToolTip": "Forms.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-28T07:15:38.448Z"
+              "WhenOpened": "2025-07-27T08:08:08.153Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
