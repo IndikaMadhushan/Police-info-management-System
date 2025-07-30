@@ -50,7 +50,7 @@ namespace Forms.UserdashBoard
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new Home());
+            LoadFormInPanel(new Home(_currentUser));
         }
 
         private void buttonPay_Click(object sender, EventArgs e)
