@@ -50,7 +50,13 @@ namespace login
             if (user != null)
             {
                 Form dashboard = DashboardFactory.GetDashboard(user);
+<<<<<<< HEAD
                 this.Hide();
+=======
+
+                this.Hide();
+
+>>>>>>> d614c90a3dca053b658e8d4f7cfbcb9b1084b15e
                 dashboard.Show();
                 dashboard.FormClosed += (s, args) => this.Close();
                 // // Hide the login form
@@ -59,10 +65,16 @@ namespace login
             {
                 MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+<<<<<<< HEAD
 
 
 
 
+=======
+            
+
+
+>>>>>>> d614c90a3dca053b658e8d4f7cfbcb9b1084b15e
             
 
             //    // Close this (login) form
