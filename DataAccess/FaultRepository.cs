@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using Forms.Models;
 
 namespace Forms.DataAccess
 {
@@ -13,39 +14,40 @@ namespace Forms.DataAccess
         public string Status { get; set; }
     }
 
+
     public static class FaultRepository
     {
-        public static List<Fault> GetFaultsByUserId(int userId)
-        {
-            List<Fault> faults = new List<Fault>();
-
-            using (SqlConnection conn = DatabaseConnection.getConnection())
+            public static List<Fault> GetFaultsByUserId(int userId)
             {
-                string query = "SELECT description, fault_type, fine_amount, date_recorded, status FROM Faults WHERE user_id = @userId";
+                List<Fault> faults = new List<Fault>();
 
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                using (SqlConnection conn = DatabaseConnection.getConnection())
                 {
-                    cmd.Parameters.AddWithValue("@userId", userId);
-                    conn.Open();
+                    string query = "SELECT description, fault_type, fine_amount, date_recorded, status FROM Faults WHERE user_id = @userId";
 
-                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
-                        while (reader.Read())
+                        cmd.Parameters.AddWithValue("@userId", userId);
+                        conn.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
                         {
-                            faults.Add(new Fault
+                            while (reader.Read())
                             {
-                                Description = reader["description"].ToString(),
-                                FaultType = reader["fault_type"].ToString(),
-                                FineAmount = reader.GetDecimal(reader.GetOrdinal("fine_amount")),
-                                DateRecorded = reader.GetDateTime(reader.GetOrdinal("date_recorded")),
-                                Status = reader["status"].ToString()
-                            });
+                                faults.Add(new Fault
+                                {
+                                    Description = reader["description"].ToString(),
+                                    FaultType = reader["fault_type"].ToString(),
+                                    FineAmount = reader.GetDecimal(reader.GetOrdinal("fine_amount")),
+                                    DateRecorded = reader.GetDateTime(reader.GetOrdinal("date_recorded")),
+                                    Status = reader["status"].ToString()
+                                });
+                            }
                         }
                     }
                 }
-            }
 
-            return faults;
+                return faults;
+            }
         }
     }
-}

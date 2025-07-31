@@ -8,6 +8,19 @@ namespace Forms.BusinessLogic
 {
     public static class AuthenticationService
     {
+        //to return the logged-in user
+        private static User _currentUser;
+
+        public static void setCurrentUser(User user)
+        {
+            _currentUser = user;
+        }
+
+        public static User GetCurrentUser()
+        {
+            return _currentUser;
+        }
+
         public static User Authenticate(string username, string password)
         {
             using (var conn = DatabaseConnection.getConnection())

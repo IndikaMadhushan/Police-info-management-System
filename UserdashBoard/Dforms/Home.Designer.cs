@@ -1,4 +1,5 @@
-﻿namespace Forms.UserdashBoard.Dforms
+﻿
+namespace Forms.UserdashBoard.Dforms
 {
     partial class Home
     {
@@ -92,6 +93,7 @@
             splitContainer1.Panel1.Controls.Add(label2);
             splitContainer1.Panel1.Controls.Add(label1);
             splitContainer1.Panel1.Controls.Add(pictureBox1);
+           // splitContainer1.Panel1.Paint += splitContainer1_Panel1_Paint;
             // 
             // splitContainer1.Panel2
             // 
@@ -103,51 +105,78 @@
             // 
             // textaddress
             // 
-            textaddress.Location = new Point(152, 328);
+
+            textaddress.Enabled = false;
+            textaddress.Location = new Point(135, 312);
             textaddress.Name = "textaddress";
-            textaddress.Size = new Size(334, 29);
+            textaddress.ReadOnly = true;
+            textaddress.Size = new Size(297, 27);
+
             textaddress.TabIndex = 21;
             // 
             // textDate
             // 
-            textDate.Location = new Point(152, 585);
+
+            textDate.Enabled = false;
+            textDate.Location = new Point(135, 557);
             textDate.Name = "textDate";
-            textDate.Size = new Size(334, 29);
+            textDate.ReadOnly = true;
+            textDate.Size = new Size(297, 27);
             textDate.TabIndex = 20;
             // 
             // textmail
             // 
-            textmail.Location = new Point(156, 526);
+
+            textmail.Enabled = false;
+            textmail.Location = new Point(139, 501);
             textmail.Name = "textmail";
-            textmail.Size = new Size(334, 29);
+            textmail.ReadOnly = true;
+            textmail.Size = new Size(297, 27);
+
             textmail.TabIndex = 19;
             // 
             // texttel
             // 
-            texttel.Location = new Point(152, 457);
+
+            texttel.Enabled = false;
+            texttel.Location = new Point(135, 435);
             texttel.Name = "texttel";
-            texttel.Size = new Size(334, 29);
+            texttel.ReadOnly = true;
+            texttel.Size = new Size(297, 27);
+
             texttel.TabIndex = 18;
             // 
             // textjob
             // 
-            textjob.Location = new Point(152, 388);
+
+            textjob.Enabled = false;
+            textjob.Location = new Point(135, 370);
             textjob.Name = "textjob";
-            textjob.Size = new Size(334, 29);
+            textjob.ReadOnly = true;
+            textjob.Size = new Size(297, 27);
+
             textjob.TabIndex = 17;
             // 
             // textid
             // 
-            textid.Location = new Point(152, 264);
+
+            textid.Enabled = false;
+            textid.Location = new Point(135, 251);
             textid.Name = "textid";
-            textid.Size = new Size(334, 29);
+            textid.ReadOnly = true;
+            textid.Size = new Size(297, 27);
+
             textid.TabIndex = 16;
             // 
             // textname
             // 
-            textname.Location = new Point(152, 191);
+
+            textname.Enabled = false;
+            textname.Location = new Point(135, 182);
             textname.Name = "textname";
-            textname.Size = new Size(334, 29);
+            textname.ReadOnly = true;
+            textname.Size = new Size(297, 27);
+
             textname.TabIndex = 15;
             // 
             // label14
@@ -299,6 +328,28 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+
+            // groupBox2
+            // 
+            //groupBox2.Controls.Add(listView2);
+            //groupBox2.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            //groupBox2.Location = new Point(9, 312);
+            //groupBox2.Name = "groupBox2";
+            //groupBox2.Size = new Size(402, 272);
+            //groupBox2.TabIndex = 3;
+            //groupBox2.TabStop = false;
+            //groupBox2.Text = "Previous cases :";
+            // 
+            // listView2
+            // 
+            //listView2.Enabled = false;
+            //listView2.Location = new Point(6, 26);
+            //listView2.Name = "listView2";
+            //listView2.Size = new Size(390, 240);
+            //listView2.TabIndex = 0;
+            //listView2.UseCompatibleStateImageBehavior = false;
+            // 
+
             // groupBox1
             // 
             groupBox1.Controls.Add(listView1);
@@ -309,11 +360,14 @@
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Bounty Details :";
-            groupBox1.Enter += groupBox1_Enter;
+           // groupBox1.Enter += groupBox1_Enter;
             // 
             // listView1
             // 
-            listView1.Location = new Point(7, 27);
+
+            listView1.Enabled = false;
+            listView1.Location = new Point(6, 26);
+
             listView1.Name = "listView1";
             listView1.Size = new Size(438, 501);
             listView1.TabIndex = 0;
@@ -337,6 +391,11 @@
             groupBox1.ResumeLayout(false);
             ResumeLayout(false);
         }
+
+        //private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
+        //{
+             
+        //}
 
         #endregion
 

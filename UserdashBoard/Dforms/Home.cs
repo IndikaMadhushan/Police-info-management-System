@@ -16,64 +16,58 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 namespace Forms.UserdashBoard.Dforms
 {
 
-  
-
     public partial class Home : Form
     {
         private User _currentUser;
 
         //method to get the fault from the database
 
-        private void LoadUserFaultsIntoRichTextBox()
+        private void LoadUserFaults()
         {
-            var currentUser = AuthenticationService.GetCurrentUser();
+            listView1.Items.Clear();
+            listView1.Columns.Clear();
 
-            if (currentUser == null)
-            {
-                listView1.Text = "User not logged in.";
-                return;
-            }
+            // Define columns once
+            listView1.Columns.Add("Description", 150);
+            listView1.Columns.Add("Type", 100);
+            listView1.Columns.Add("Fine", 80);
+            listView1.Columns.Add("Date", 100);
+            listView1.Columns.Add("Status", 100);
 
-            var faults = FaultRepository.GetFaultsByUserId(currentUser.UserId);
+            listView1.View = View.Details;
+            listView1.FullRowSelect = true;
+            listView1.GridLines = true;
 
-            if (faults.Count == 0)
-            {
-                listView1.Text = "No faults found.";
-                return;
-            }
+            // Get data from DB
+            var faults = FaultRepository.GetFaultsByUserId(_currentUser.UserId);
 
-            StringBuilder sb = new StringBuilder();
+            // Fill listView1
             foreach (var fault in faults)
             {
-                sb.AppendLine($"Description  : {fault.Description}");
-                sb.AppendLine($"Type         : {fault.FaultType}");
-                sb.AppendLine($"Fine         : Rs. {fault.FineAmount}");
-                sb.AppendLine($"Date         : {fault.DateRecorded.ToShortDateString()}");
-                sb.AppendLine($"Status       : {fault.Status}");
-                sb.AppendLine(new string('-', 40));
-            }
+                ListViewItem item = new ListViewItem(fault.Description);
+                item.SubItems.Add(fault.FaultType);
+                item.SubItems.Add(fault.FineAmount.ToString("C")); // "Rs. 500.00"
+                item.SubItems.Add(fault.DateRecorded.ToShortDateString());
+                item.SubItems.Add(fault.Status);
 
-            listView1.Text = sb.ToString();
+                listView1.Items.Add(item);
+            }
         }
+
+
 
 
 
         public Home(User user)
         {
-            InitializeComponent();
             _currentUser = user;
+            InitializeComponent();
+            
         }
 
         private void Home_Load(object sender, EventArgs e)
         {
-            textname.Text = _currentUser.Name;
-            textid.Text = _currentUser.NIC;
-            textaddress.Text = _currentUser.Address;
-            textjob.Text = _currentUser.Job;
-            texttel.Text = _currentUser.Phone;
-            textmail.Text = _currentUser.Email;
-            textDate.Text = _currentUser.DateOfBirth?.ToString("yyyy-MM-dd");
-            LoadUserFaultsIntoRichTextBox();
+            LoadUserFaults();
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -82,6 +76,11 @@ namespace Forms.UserdashBoard.Dforms
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

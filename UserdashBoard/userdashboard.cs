@@ -1,6 +1,7 @@
 ﻿using Forms.DataAccess;
 using Forms.Models;
 using Forms.UserdashBoard.Dforms;
+using login;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,7 +11,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+
 
 namespace Forms.UserdashBoard
 {
@@ -25,13 +26,17 @@ namespace Forms.UserdashBoard
         public UserDashboard(User user)
         {
             InitializeComponent();
-           _currentUser = user;
-            
+            _currentUser = user;
+
         }
 
         private void Userdashboard_Load(object sender, EventArgs e)
         {
-            
+
+        }
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         private void toolStripContainer1_TopToolStripPanel_Click(object sender, EventArgs e)
@@ -71,6 +76,21 @@ namespace Forms.UserdashBoard
         private void buttonFirearm_Click(object sender, EventArgs e)
         {
             LoadFormInPanel(new FireArmPermission());
+        }
+
+        private void buttonchangepwd_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new ChangePassword());
+        }
+
+        private void buttonLogout_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LoginForm loginForm = new LoginForm();
+            loginForm.FormClosed += (s, args) => this.Close();
+            loginForm.Show();
+
+        
         }
     }
 }
