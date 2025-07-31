@@ -63,32 +63,6 @@ namespace Forms.BusinessLogic
             return null; // Invalid username or password
         }
 
-        // ✅ NEW METHOD: Fetch fault descriptions for the logged-in user
-        public static List<string> GetFaultDescriptionsByUserId(int userId)
-        {
-            var faults = new List<string>();
-
-            using (var conn = DatabaseConnection.getConnection())
-            {
-                string query = "SELECT description FROM Faults WHERE user_id = @userId";
-
-                using (SqlCommand cmd = new SqlCommand(query, conn))
-                {
-                    cmd.Parameters.AddWithValue("@userId", userId);
-                    conn.Open();
-
-                    using (SqlDataReader reader = cmd.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            string description = reader.GetString(0);
-                            faults.Add(description);
-                        }
-                    }
-                }
-            }
-
-            return faults;
-        }
+         
     }
 }

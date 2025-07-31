@@ -20,44 +20,6 @@ namespace Forms.UserdashBoard.Dforms
     {
         private User _currentUser;
 
-        //method to get the fault from the database
-
-        private void LoadUserFaults()
-        {
-            listView1.Items.Clear();
-            listView1.Columns.Clear();
-
-            // Define columns once
-            listView1.Columns.Add("Description", 150);
-            listView1.Columns.Add("Type", 100);
-            listView1.Columns.Add("Fine", 80);
-            listView1.Columns.Add("Date", 100);
-            listView1.Columns.Add("Status", 100);
-
-            listView1.View = View.Details;
-            listView1.FullRowSelect = true;
-            listView1.GridLines = true;
-
-            // Get data from DB
-            var faults = FaultRepository.GetFaultsByUserId(_currentUser.UserId);
-
-            // Fill listView1
-            foreach (var fault in faults)
-            {
-                ListViewItem item = new ListViewItem(fault.Description);
-                item.SubItems.Add(fault.FaultType);
-                item.SubItems.Add(fault.FineAmount.ToString("C")); // "Rs. 500.00"
-                item.SubItems.Add(fault.DateRecorded.ToShortDateString());
-                item.SubItems.Add(fault.Status);
-
-                listView1.Items.Add(item);
-            }
-        }
-
-
-
-
-
         public Home(User user)
         {
             _currentUser = user;
@@ -67,7 +29,31 @@ namespace Forms.UserdashBoard.Dforms
 
         private void Home_Load(object sender, EventArgs e)
         {
-            LoadUserFaults();
+            //Load user details into the form controls
+            textname.Text = _currentUser.Name;
+            textid.Text = _currentUser.NIC;
+            textaddress.Text = _currentUser.Address;
+            textjob.Text = _currentUser.Job;
+            texttel.Text = _currentUser.Phone;
+            textmail.Text = _currentUser.Email;
+            textDate.Text = _currentUser.DateOfBirth?.ToString("yyyy-MM-dd");
+
+            
+
+
+            //Load Faults List
+            LoadFaults();
+        }
+
+        //method to load faults for the current user
+        private void LoadFaults()
+        {
+            listViewBounty.Items.Clear(); // Clear previous items
+            var faults = FaultRepository.GetFaultsByUserId(_currentUser.UserId);
+            foreach (var fault in faults)
+            {
+                listViewBounty.Items.Add(fault.ToString());
+            }
         }
 
         private void label5_Click(object sender, EventArgs e)
@@ -84,5 +70,17 @@ namespace Forms.UserdashBoard.Dforms
         {
 
         }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listViewBounty.Columns.Add("Description", 200);
+            listViewBounty.Columns.Add("Type", 100);
+            listViewBounty.Columns.Add("Fine", 80);
+            listViewBounty.Columns.Add("Date", 120);
+            listViewBounty.Columns.Add("Status", 100);
+
+        }
+       
+
     }
 }

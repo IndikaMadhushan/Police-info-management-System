@@ -20,9 +20,6 @@ namespace Forms.UserdashBoard
     {
         private readonly User _currentUser;
 
-        
-
-
         public UserDashboard(User user)
         {
             InitializeComponent();

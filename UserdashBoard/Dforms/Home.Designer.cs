@@ -53,7 +53,7 @@ namespace Forms.UserdashBoard.Dforms
             label1 = new Label();
             pictureBox1 = new PictureBox();
             groupBox1 = new GroupBox();
-            listView1 = new ListView();
+            richBoxBounty = new RichTextBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -93,7 +93,6 @@ namespace Forms.UserdashBoard.Dforms
             splitContainer1.Panel1.Controls.Add(label2);
             splitContainer1.Panel1.Controls.Add(label1);
             splitContainer1.Panel1.Controls.Add(pictureBox1);
-           // splitContainer1.Panel1.Paint += splitContainer1_Panel1_Paint;
             // 
             // splitContainer1.Panel2
             // 
@@ -105,78 +104,65 @@ namespace Forms.UserdashBoard.Dforms
             // 
             // textaddress
             // 
-
             textaddress.Enabled = false;
             textaddress.Location = new Point(135, 312);
             textaddress.Name = "textaddress";
             textaddress.ReadOnly = true;
-            textaddress.Size = new Size(297, 27);
-
+            textaddress.Size = new Size(297, 29);
             textaddress.TabIndex = 21;
             // 
             // textDate
             // 
-
             textDate.Enabled = false;
             textDate.Location = new Point(135, 557);
             textDate.Name = "textDate";
             textDate.ReadOnly = true;
-            textDate.Size = new Size(297, 27);
+            textDate.Size = new Size(297, 29);
             textDate.TabIndex = 20;
             // 
             // textmail
             // 
-
             textmail.Enabled = false;
             textmail.Location = new Point(139, 501);
             textmail.Name = "textmail";
             textmail.ReadOnly = true;
-            textmail.Size = new Size(297, 27);
-
+            textmail.Size = new Size(297, 29);
             textmail.TabIndex = 19;
             // 
             // texttel
             // 
-
             texttel.Enabled = false;
             texttel.Location = new Point(135, 435);
             texttel.Name = "texttel";
             texttel.ReadOnly = true;
-            texttel.Size = new Size(297, 27);
-
+            texttel.Size = new Size(297, 29);
             texttel.TabIndex = 18;
             // 
             // textjob
             // 
-
             textjob.Enabled = false;
             textjob.Location = new Point(135, 370);
             textjob.Name = "textjob";
             textjob.ReadOnly = true;
-            textjob.Size = new Size(297, 27);
-
+            textjob.Size = new Size(297, 29);
             textjob.TabIndex = 17;
             // 
             // textid
             // 
-
             textid.Enabled = false;
             textid.Location = new Point(135, 251);
             textid.Name = "textid";
             textid.ReadOnly = true;
-            textid.Size = new Size(297, 27);
-
+            textid.Size = new Size(297, 29);
             textid.TabIndex = 16;
             // 
             // textname
             // 
-
             textname.Enabled = false;
             textname.Location = new Point(135, 182);
             textname.Name = "textname";
             textname.ReadOnly = true;
-            textname.Size = new Size(297, 27);
-
+            textname.Size = new Size(297, 29);
             textname.TabIndex = 15;
             // 
             // label14
@@ -328,50 +314,24 @@ namespace Forms.UserdashBoard.Dforms
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-
-            // groupBox2
-            // 
-            //groupBox2.Controls.Add(listView2);
-            //groupBox2.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            //groupBox2.Location = new Point(9, 312);
-            //groupBox2.Name = "groupBox2";
-            //groupBox2.Size = new Size(402, 272);
-            //groupBox2.TabIndex = 3;
-            //groupBox2.TabStop = false;
-            //groupBox2.Text = "Previous cases :";
-            // 
-            // listView2
-            // 
-            //listView2.Enabled = false;
-            //listView2.Location = new Point(6, 26);
-            //listView2.Name = "listView2";
-            //listView2.Size = new Size(390, 240);
-            //listView2.TabIndex = 0;
-            //listView2.UseCompatibleStateImageBehavior = false;
-            // 
-
             // groupBox1
             // 
-            groupBox1.Controls.Add(listView1);
+            groupBox1.Controls.Add(richBoxBounty);
             groupBox1.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox1.Location = new Point(10, 49);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(452, 534);
+            groupBox1.Size = new Size(452, 588);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Bounty Details :";
-           // groupBox1.Enter += groupBox1_Enter;
             // 
-            // listView1
+            // richBoxBounty
             // 
-
-            listView1.Enabled = false;
-            listView1.Location = new Point(6, 26);
-
-            listView1.Name = "listView1";
-            listView1.Size = new Size(438, 501);
-            listView1.TabIndex = 0;
-            listView1.UseCompatibleStateImageBehavior = false;
+            richBoxBounty.Location = new Point(6, 26);
+            richBoxBounty.Name = "richBoxBounty";
+            richBoxBounty.Size = new Size(440, 556);
+            richBoxBounty.TabIndex = 0;
+            richBoxBounty.Text = "";
             // 
             // Home
             // 
@@ -394,7 +354,7 @@ namespace Forms.UserdashBoard.Dforms
 
         //private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
         //{
-             
+
         //}
 
         #endregion
@@ -423,6 +383,6 @@ namespace Forms.UserdashBoard.Dforms
         private TextBox textid;
         private TextBox textname;
         private GroupBox groupBox1;
-        private ListView listView1;
+        private RichTextBox richBoxBounty;
     }
 }
