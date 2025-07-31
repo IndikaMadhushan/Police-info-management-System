@@ -1,9 +1,10 @@
-using Forms.UserdashBoard;  // use the namespace of DashboardForm
-using Forms.UserdashBoard.Dforms;
-using Forms.DataAccess;
 using Forms.BusinessLogic;
+using Forms.DataAccess;
 using Forms.Factories;
 using Forms.Models;
+using Forms.UserdashBoard;  // use the namespace of DashboardForm
+using Forms.UserdashBoard.Dforms;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace login
 {
@@ -14,6 +15,12 @@ namespace login
             InitializeComponent();
 
         }
+
+        public static class Session
+        {
+            public static int LoggedInUserId { get; set; }
+        }
+
 
 
 
@@ -49,6 +56,8 @@ namespace login
 
             if (user != null)
             {
+               // Session.LoggedInUserId = userId;  // userId from DB
+
                 Form dashboard = DashboardFactory.GetDashboard(user);
 
                 this.Hide();
