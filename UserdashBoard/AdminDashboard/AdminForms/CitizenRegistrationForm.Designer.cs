@@ -85,7 +85,7 @@
             label2.Size = new Size(14, 24);
             label2.TabIndex = 1;
             label2.Text = ":";
-            label2.Click += this.label2_Click;
+            NewMethod();
             // 
             // label4
             // 
@@ -180,6 +180,11 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ResumeLayout(false);
+        }
+
+        private void NewMethod()
+        {
+            
         }
 
         #endregion
