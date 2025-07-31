@@ -51,8 +51,6 @@
             label2 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
-            groupBox2 = new GroupBox();
-            listView2 = new ListView();
             groupBox1 = new GroupBox();
             listView1 = new ListView();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
@@ -60,7 +58,6 @@
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            groupBox2.SuspendLayout();
             groupBox1.SuspendLayout();
             SuspendLayout();
             // 
@@ -100,7 +97,6 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.FromArgb(192, 192, 255);
-            splitContainer1.Panel2.Controls.Add(groupBox2);
             splitContainer1.Panel2.Controls.Add(groupBox1);
             splitContainer1.Size = new Size(872, 618);
             splitContainer1.SplitterDistance = 445;
@@ -318,33 +314,13 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // groupBox2
-            // 
-            groupBox2.Controls.Add(listView2);
-            groupBox2.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox2.Location = new Point(9, 312);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(402, 272);
-            groupBox2.TabIndex = 3;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Previous cases :";
-            // 
-            // listView2
-            // 
-            listView2.Enabled = false;
-            listView2.Location = new Point(6, 26);
-            listView2.Name = "listView2";
-            listView2.Size = new Size(390, 240);
-            listView2.TabIndex = 0;
-            listView2.UseCompatibleStateImageBehavior = false;
-            // 
             // groupBox1
             // 
             groupBox1.Controls.Add(listView1);
             groupBox1.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             groupBox1.Location = new Point(9, 47);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(402, 255);
+            groupBox1.Size = new Size(402, 537);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Previous Bounty Details :";
@@ -354,7 +330,7 @@
             listView1.Enabled = false;
             listView1.Location = new Point(6, 26);
             listView1.Name = "listView1";
-            listView1.Size = new Size(390, 223);
+            listView1.Size = new Size(390, 505);
             listView1.TabIndex = 0;
             listView1.UseCompatibleStateImageBehavior = false;
             // 
@@ -373,7 +349,6 @@
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            groupBox2.ResumeLayout(false);
             groupBox1.ResumeLayout(false);
             ResumeLayout(false);
         }
@@ -404,8 +379,6 @@
         private TextBox textid;
         private TextBox textname;
         private GroupBox groupBox1;
-        private GroupBox groupBox2;
-        private ListView listView2;
         private ListView listView1;
     }
 }

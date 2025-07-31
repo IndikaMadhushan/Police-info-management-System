@@ -12,16 +12,21 @@ using System.Windows.Forms;
 
 namespace Forms.UserdashBoard.AdminDashboard
 {
-    public partial class AdminHomeForm : Form
+    public partial class AdminDashBoard : Form
     {
         private readonly User _currentUser;
-        public AdminHomeForm(User user)
+        public AdminDashBoard(User user)
         {
             InitializeComponent();
             _currentUser = user;
         }
 
         private void AdminHomeForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonFireArm_Click(object sender, EventArgs e)
         {
 
         }

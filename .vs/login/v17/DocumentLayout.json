@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\userdashboard\\admindashboard\\adminforms\\citizenregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\admindashboard\\adminforms\\citizenregistrationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\userdashboard\\admindashboard\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\admindashboard\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\dforms\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\userdashboard\\admindashboard\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,33 +65,29 @@
               "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CitizenRegistrationForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs",
-              "RelativeDocumentMoniker": "UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs [Design]*",
-              "RelativeToolTip": "UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs [Design]*",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-31T07:34:57.487Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CitizenRegistrationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs [Design]",
+              "RelativeToolTip": "UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-31T07:34:57.487Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CitizenRegistrationForm.cs",
               "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs",
               "RelativeDocumentMoniker": "UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs*",
-              "RelativeToolTip": "UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs*",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs",
+              "RelativeToolTip": "UserdashBoard\\AdminDashboard\\AdminForms\\CitizenRegistrationForm.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-31T07:50:37.119Z",
@@ -99,7 +95,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Home.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\Dforms\\Home.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\Dforms\\Home.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\Dforms\\Home.cs [Design]",
+              "RelativeToolTip": "UserdashBoard\\Dforms\\Home.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T15:33:14.038Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AdminDashBoard.resx",
               "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminDashBoard.resx",
               "RelativeDocumentMoniker": "UserdashBoard\\AdminDashboard\\AdminDashBoard.resx",
@@ -111,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AdminDashBoard.cs [Design]",
               "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminDashBoard.cs",
               "RelativeDocumentMoniker": "UserdashBoard\\AdminDashboard\\AdminDashBoard.cs",
@@ -119,18 +131,6 @@
               "RelativeToolTip": "UserdashBoard\\AdminDashboard\\AdminDashBoard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T16:26:41.716Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Home.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\Dforms\\Home.cs",
-              "RelativeDocumentMoniker": "UserdashBoard\\Dforms\\Home.cs",
-              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\Dforms\\Home.cs [Design]",
-              "RelativeToolTip": "UserdashBoard\\Dforms\\Home.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T15:33:14.038Z",
               "EditorCaption": " [Design]"
             },
             {

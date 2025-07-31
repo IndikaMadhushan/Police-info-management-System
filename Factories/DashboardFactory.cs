@@ -20,7 +20,7 @@ namespace Forms.Factories
             return user.Role switch
             {
 
-                "Admin" => new AdminHomeForm(user),
+                "Admin" => new AdminDashBoard(user),
                 "User" => new UserDashboard(user),
                 _ => null
 
