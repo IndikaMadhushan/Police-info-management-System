@@ -332,6 +332,7 @@ namespace Forms.UserdashBoard.Dforms
             richBoxBounty.Size = new Size(440, 556);
             richBoxBounty.TabIndex = 0;
             richBoxBounty.Text = "";
+            richBoxBounty.TextChanged += richBoxBounty_TextChanged;
             // 
             // Home
             // 

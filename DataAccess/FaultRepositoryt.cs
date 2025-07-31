@@ -29,7 +29,8 @@ namespace Forms.DataAccess
 
             using (SqlConnection conn = DatabaseConnection.getConnection())
             {
-                string query = "SELECT description, fault_type, fine_amount, date_recorded, status FROM Faults WHERE user_id = @userId";
+                string query = @"SELECT description, fault_type, fine_amount, date_recorded, status 
+                                 FROM Faults WHERE user_id = @userId";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
@@ -44,8 +45,8 @@ namespace Forms.DataAccess
                             {
                                 Description = reader["description"].ToString(),
                                 FaultType = reader["fault_type"].ToString(),
-                                FineAmount = (decimal)reader["fine_amount"],
-                                DateRecorded = (DateTime)reader["date_recorded"],
+                                FineAmount = reader.GetDecimal(reader.GetOrdinal("fine_amount")),
+                                DateRecorded = reader.GetDateTime(reader.GetOrdinal("date_recorded")),
                                 Status = reader["status"].ToString()
                             });
                         }

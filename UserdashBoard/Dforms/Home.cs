@@ -24,7 +24,7 @@ namespace Forms.UserdashBoard.Dforms
         {
             _currentUser = user;
             InitializeComponent();
-            
+
         }
 
         private void Home_Load(object sender, EventArgs e)
@@ -38,23 +38,39 @@ namespace Forms.UserdashBoard.Dforms
             textmail.Text = _currentUser.Email;
             textDate.Text = _currentUser.DateOfBirth?.ToString("yyyy-MM-dd");
 
-            
-
-
-            //Load Faults List
+            //Call method to load faults for the current user
             LoadFaults();
+
+
         }
 
         //method to load faults for the current user
         private void LoadFaults()
         {
-            listViewBounty.Items.Clear(); // Clear previous items
             var faults = FaultRepository.GetFaultsByUserId(_currentUser.UserId);
-            foreach (var fault in faults)
+
+            StringBuilder sb = new StringBuilder();
+
+            if (faults.Count == 0)
             {
-                listViewBounty.Items.Add(fault.ToString());
+                sb.AppendLine("No faults recorded.");
             }
+            else
+            {
+                sb.AppendLine("Your Fault Records:\n");
+                sb.AppendLine("-------------------------------------------------------------------");
+                sb.AppendLine($"{"Description",-30} {"Type",-15} {"Fine",-10} {"Date",-20} {"Status",-10}");
+                sb.AppendLine("-------------------------------------------------------------------");
+
+                foreach (var fault in faults)
+                {
+                    sb.AppendLine($"{fault.Description,-30} {fault.FaultType,-15} {fault.FineAmount,-10:C} {fault.DateRecorded.ToShortDateString(),-20} {fault.Status,-10}");
+                }
+            }
+
+            richBoxBounty.Text = sb.ToString();
         }
+
 
         private void label5_Click(object sender, EventArgs e)
         {
@@ -71,16 +87,11 @@ namespace Forms.UserdashBoard.Dforms
 
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        
+
+        private void richBoxBounty_TextChanged(object sender, EventArgs e)
         {
-            listViewBounty.Columns.Add("Description", 200);
-            listViewBounty.Columns.Add("Type", 100);
-            listViewBounty.Columns.Add("Fine", 80);
-            listViewBounty.Columns.Add("Date", 120);
-            listViewBounty.Columns.Add("Status", 100);
 
         }
-       
-
     }
 }
