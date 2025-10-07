@@ -19,11 +19,13 @@ namespace Forms.UserdashBoard
     public partial class UserDashboard : Form
     {
         private readonly User _currentUser;
+        private int currentUserId;
 
         public UserDashboard(User user)
         {
             InitializeComponent();
             _currentUser = user;
+            currentUserId = user.UserId;
 
         }
 
@@ -77,7 +79,10 @@ namespace Forms.UserdashBoard
 
         private void buttonchangepwd_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new ChangePassword());
+            ChangePassword changePasswordForm = new ChangePassword(currentUserId);
+            //changePasswordForm.ShowDialog();
+
+            LoadFormInPanel(changePasswordForm);
         }
 
         private void buttonLogout_Click(object sender, EventArgs e)

@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using Forms.DataAccess;
 using Forms.Models;
 
@@ -8,31 +7,31 @@ namespace Forms.BusinessLogic
 {
     public static class AuthenticationService
     {
-        //to return the logged-in user
-        private static User _currentUser;
+        private static User? _currentUser; // ✅ nullable field
 
-        public static void setCurrentUser(User user)
+        public static void SetCurrentUser(User user)
         {
             _currentUser = user;
         }
 
-        public static User GetCurrentUser()
+        public static User? GetCurrentUser()
         {
             return _currentUser;
         }
 
-        public static User Authenticate(string username, string password)
+        public static User? Authenticate(string username, string password)
         {
-            using (var conn = DatabaseConnection.getConnection())
+            var db = DatabaseConnection.Instance;
+
+            using (var conn = db.GetConnection())
             {
                 string query = @"SELECT user_id, password_hash, role, name, nic, address, job, phone, email, dob 
                                  FROM Users 
                                  WHERE username = @username AND is_active = 1";
 
-                using (SqlCommand cmd = new SqlCommand(query, conn))
+                using (var cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@username", username);
-                    conn.Open();
 
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
@@ -62,7 +61,5 @@ namespace Forms.BusinessLogic
 
             return null; // Invalid username or password
         }
-
-         
     }
 }

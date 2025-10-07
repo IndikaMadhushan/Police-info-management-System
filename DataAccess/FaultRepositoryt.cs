@@ -1,23 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Microsoft.Data.SqlClient; // ✅ Modern SQL client
+using Forms.DataAccess;
 
 namespace Forms.DataAccess
 {
     public class Fault
     {
-        public string Description { get; set; }
-        public string FaultType { get; set; }
+        public string Description { get; set; } = string.Empty;
+        public string FaultType { get; set; } = string.Empty;
         public decimal FineAmount { get; set; }
         public DateTime DateRecorded { get; set; }
-        public string Status { get; set; }
+        public string Status { get; set; } = string.Empty;
 
         public override string ToString()
         {
-            return $"{DateRecorded.ToShortDateString()} - {FaultType}: {Description} (${FineAmount}) - {Status}";
+            return $"{DateRecorded.ToShortDateString()} - {FaultType}: {Description} (Rs.{FineAmount}) - {Status}";
         }
     }
 
@@ -25,9 +23,10 @@ namespace Forms.DataAccess
     {
         public static List<Fault> GetFaultsByUserId(int userId)
         {
-            List<Fault> faults = new List<Fault>();
+            var faults = new List<Fault>();
+            var db = DatabaseConnection.Instance; // ✅ Use singleton instance
 
-            using (SqlConnection conn = DatabaseConnection.getConnection())
+            using (SqlConnection conn = db.GetConnection())
             {
                 string query = @"SELECT description, fault_type, fine_amount, date_recorded, status 
                                  FROM Faults WHERE user_id = @userId";
@@ -35,20 +34,21 @@ namespace Forms.DataAccess
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@userId", userId);
-                    conn.Open();
 
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
                         while (reader.Read())
                         {
-                            faults.Add(new Fault
+                            var fault = new Fault
                             {
-                                Description = reader["description"].ToString(),
-                                FaultType = reader["fault_type"].ToString(),
+                                Description = reader["description"]?.ToString() ?? string.Empty,
+                                FaultType = reader["fault_type"]?.ToString() ?? string.Empty,
                                 FineAmount = reader.GetDecimal(reader.GetOrdinal("fine_amount")),
                                 DateRecorded = reader.GetDateTime(reader.GetOrdinal("date_recorded")),
-                                Status = reader["status"].ToString()
-                            });
+                                Status = reader["status"]?.ToString() ?? string.Empty
+                            };
+
+                            faults.Add(fault);
                         }
                     }
                 }
