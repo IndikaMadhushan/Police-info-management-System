@@ -98,23 +98,24 @@ namespace Forms.UserdashBoard.Dforms
             // 
             splitContainer1.Panel2.BackColor = Color.FromArgb(192, 192, 255);
             splitContainer1.Panel2.Controls.Add(groupBox1);
-            splitContainer1.Size = new Size(981, 649);
-            splitContainer1.SplitterDistance = 500;
+            splitContainer1.Size = new Size(1264, 642);
+            splitContainer1.SplitterDistance = 643;
             splitContainer1.TabIndex = 1;
             // 
             // textaddress
             // 
             textaddress.Enabled = false;
-            textaddress.Location = new Point(135, 312);
+            textaddress.Location = new Point(150, 319);
             textaddress.Name = "textaddress";
             textaddress.ReadOnly = true;
             textaddress.Size = new Size(297, 29);
             textaddress.TabIndex = 21;
+            textaddress.TextChanged += textaddress_TextChanged;
             // 
             // textDate
             // 
             textDate.Enabled = false;
-            textDate.Location = new Point(135, 557);
+            textDate.Location = new Point(150, 579);
             textDate.Name = "textDate";
             textDate.ReadOnly = true;
             textDate.Size = new Size(297, 29);
@@ -123,7 +124,7 @@ namespace Forms.UserdashBoard.Dforms
             // textmail
             // 
             textmail.Enabled = false;
-            textmail.Location = new Point(139, 501);
+            textmail.Location = new Point(150, 525);
             textmail.Name = "textmail";
             textmail.ReadOnly = true;
             textmail.Size = new Size(297, 29);
@@ -132,7 +133,7 @@ namespace Forms.UserdashBoard.Dforms
             // texttel
             // 
             texttel.Enabled = false;
-            texttel.Location = new Point(135, 435);
+            texttel.Location = new Point(150, 456);
             texttel.Name = "texttel";
             texttel.ReadOnly = true;
             texttel.Size = new Size(297, 29);
@@ -141,7 +142,7 @@ namespace Forms.UserdashBoard.Dforms
             // textjob
             // 
             textjob.Enabled = false;
-            textjob.Location = new Point(135, 370);
+            textjob.Location = new Point(150, 392);
             textjob.Name = "textjob";
             textjob.ReadOnly = true;
             textjob.Size = new Size(297, 29);
@@ -150,7 +151,7 @@ namespace Forms.UserdashBoard.Dforms
             // textid
             // 
             textid.Enabled = false;
-            textid.Location = new Point(135, 251);
+            textid.Location = new Point(150, 258);
             textid.Name = "textid";
             textid.ReadOnly = true;
             textid.Size = new Size(297, 29);
@@ -159,7 +160,7 @@ namespace Forms.UserdashBoard.Dforms
             // textname
             // 
             textname.Enabled = false;
-            textname.Location = new Point(135, 182);
+            textname.Location = new Point(150, 194);
             textname.Name = "textname";
             textname.ReadOnly = true;
             textname.Size = new Size(297, 29);
@@ -308,7 +309,7 @@ namespace Forms.UserdashBoard.Dforms
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(152, 13);
+            pictureBox1.Location = new Point(187, 12);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(169, 158);
             pictureBox1.TabIndex = 0;
@@ -318,18 +319,18 @@ namespace Forms.UserdashBoard.Dforms
             // 
             groupBox1.Controls.Add(richBoxBounty);
             groupBox1.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            groupBox1.Location = new Point(10, 49);
+            groupBox1.Location = new Point(10, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(452, 588);
+            groupBox1.Size = new Size(590, 625);
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Bounty Details :";
             // 
             // richBoxBounty
             // 
-            richBoxBounty.Location = new Point(6, 26);
+            richBoxBounty.Location = new Point(13, 26);
             richBoxBounty.Name = "richBoxBounty";
-            richBoxBounty.Size = new Size(440, 556);
+            richBoxBounty.Size = new Size(571, 593);
             richBoxBounty.TabIndex = 0;
             richBoxBounty.Text = "";
             richBoxBounty.TextChanged += richBoxBounty_TextChanged;
@@ -338,7 +339,7 @@ namespace Forms.UserdashBoard.Dforms
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(981, 649);
+            ClientSize = new Size(1264, 642);
             Controls.Add(splitContainer1);
             Name = "Home";
             Text = "Home";
