@@ -69,7 +69,7 @@ namespace Forms.UserdashBoard
 
         private void buttonInquiries_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new PlaceInquries());
+            LoadFormInPanel(new PlaceInquries(currentUserId));
         }
 
         private void buttonFirearm_Click(object sender, EventArgs e)

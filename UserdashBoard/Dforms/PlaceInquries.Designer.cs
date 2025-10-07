@@ -80,37 +80,37 @@
             splitContainer1.Panel2.Controls.Add(textinquary);
             splitContainer1.Panel2.Controls.Add(label10);
             splitContainer1.Panel2.Controls.Add(label9);
-            splitContainer1.Size = new Size(872, 618);
-            splitContainer1.SplitterDistance = 436;
+            splitContainer1.Size = new Size(981, 649);
+            splitContainer1.SplitterDistance = 483;
             splitContainer1.TabIndex = 0;
             // 
             // textdate
             // 
-            textdate.Location = new Point(106, 519);
+            textdate.Location = new Point(119, 545);
             textdate.Name = "textdate";
-            textdate.Size = new Size(309, 27);
+            textdate.Size = new Size(347, 29);
             textdate.TabIndex = 12;
             // 
             // textaddress
             // 
-            textaddress.Location = new Point(106, 263);
+            textaddress.Location = new Point(119, 276);
             textaddress.Name = "textaddress";
-            textaddress.Size = new Size(309, 224);
+            textaddress.Size = new Size(347, 235);
             textaddress.TabIndex = 11;
             textaddress.Text = "";
             // 
             // textnic
             // 
-            textnic.Location = new Point(106, 189);
+            textnic.Location = new Point(119, 198);
             textnic.Name = "textnic";
-            textnic.Size = new Size(309, 27);
+            textnic.Size = new Size(347, 29);
             textnic.TabIndex = 10;
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label8.Location = new Point(88, 37);
+            label8.Location = new Point(99, 39);
             label8.Name = "label8";
             label8.Size = new Size(12, 20);
             label8.TabIndex = 9;
@@ -120,7 +120,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label7.Location = new Point(88, 263);
+            label7.Location = new Point(99, 276);
             label7.Name = "label7";
             label7.Size = new Size(12, 20);
             label7.TabIndex = 8;
@@ -130,7 +130,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label6.Location = new Point(88, 522);
+            label6.Location = new Point(99, 548);
             label6.Name = "label6";
             label6.Size = new Size(12, 20);
             label6.TabIndex = 7;
@@ -140,7 +140,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label2.Location = new Point(88, 192);
+            label2.Location = new Point(99, 202);
             label2.Name = "label2";
             label2.Size = new Size(12, 20);
             label2.TabIndex = 6;
@@ -149,17 +149,18 @@
             // 
             // textname
             // 
-            textname.Location = new Point(106, 37);
+            textname.Location = new Point(119, 39);
             textname.Name = "textname";
-            textname.Size = new Size(309, 112);
+            textname.Size = new Size(347, 97);
             textname.TabIndex = 5;
             textname.Text = "";
+            textname.TextChanged += textname_TextChanged;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label5.Location = new Point(12, 192);
+            label5.Location = new Point(14, 202);
             label5.Name = "label5";
             label5.Size = new Size(59, 20);
             label5.TabIndex = 4;
@@ -169,7 +170,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label4.Location = new Point(12, 263);
+            label4.Location = new Point(14, 276);
             label4.Name = "label4";
             label4.Size = new Size(65, 20);
             label4.TabIndex = 3;
@@ -179,7 +180,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label3.Location = new Point(12, 522);
+            label3.Location = new Point(14, 548);
             label3.Name = "label3";
             label3.Size = new Size(42, 20);
             label3.TabIndex = 2;
@@ -189,7 +190,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label1.Location = new Point(12, 37);
+            label1.Location = new Point(14, 39);
             label1.Name = "label1";
             label1.Size = new Size(49, 20);
             label1.TabIndex = 0;
@@ -198,18 +199,19 @@
             // buttonsave
             // 
             buttonsave.Font = new Font("Segoe UI Variable Display Semib", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonsave.Location = new Point(103, 510);
+            buttonsave.Location = new Point(116, 536);
             buttonsave.Name = "buttonsave";
-            buttonsave.Size = new Size(234, 38);
+            buttonsave.Size = new Size(263, 40);
             buttonsave.TabIndex = 10;
             buttonsave.Text = "SAVE AND REQUEST";
             buttonsave.UseVisualStyleBackColor = true;
+            buttonsave.Click += buttonsave_Click;
             // 
             // textinquary
             // 
-            textinquary.Location = new Point(28, 78);
+            textinquary.Location = new Point(32, 82);
             textinquary.Name = "textinquary";
-            textinquary.Size = new Size(376, 409);
+            textinquary.Size = new Size(422, 429);
             textinquary.TabIndex = 9;
             textinquary.Text = "";
             // 
@@ -217,7 +219,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label10.Location = new Point(90, 37);
+            label10.Location = new Point(101, 39);
             label10.Name = "label10";
             label10.Size = new Size(12, 20);
             label10.TabIndex = 8;
@@ -227,17 +229,18 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-            label9.Location = new Point(28, 37);
+            label9.Location = new Point(32, 39);
             label9.Name = "label9";
             label9.Size = new Size(62, 20);
             label9.TabIndex = 7;
             label9.Text = "Inquary";
+            label9.Click += label9_Click;
             // 
             // PlaceInquries
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(872, 618);
+            ClientSize = new Size(981, 649);
             Controls.Add(splitContainer1);
             Name = "PlaceInquries";
             Text = "PlaceInquries";
