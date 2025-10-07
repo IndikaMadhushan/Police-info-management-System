@@ -87,9 +87,14 @@ namespace Forms.UserdashBoard.Dforms
 
         }
 
-        
+
 
         private void richBoxBounty_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textaddress_TextChanged(object sender, EventArgs e)
         {
 
         }
