@@ -74,7 +74,7 @@ namespace Forms.UserdashBoard
 
         private void buttonFirearm_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new FireArmPermission());
+            LoadFormInPanel(new FireArmPermission(currentUserId));
         }
 
         private void buttonchangepwd_Click(object sender, EventArgs e)
