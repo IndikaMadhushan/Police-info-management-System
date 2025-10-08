@@ -87,15 +87,15 @@
             splitContainer1.Panel2.Controls.Add(textreason);
             splitContainer1.Panel2.Controls.Add(label11);
             splitContainer1.Panel2.Controls.Add(label12);
-            splitContainer1.Size = new Size(872, 618);
-            splitContainer1.SplitterDistance = 436;
+            splitContainer1.Size = new Size(981, 649);
+            splitContainer1.SplitterDistance = 490;
             splitContainer1.TabIndex = 0;
             // 
             // Textaddress
             // 
-            Textaddress.Location = new Point(107, 269);
+            Textaddress.Location = new Point(120, 282);
             Textaddress.Name = "Textaddress";
-            Textaddress.Size = new Size(309, 80);
+            Textaddress.Size = new Size(347, 84);
             Textaddress.TabIndex = 16;
             Textaddress.Text = "";
             // 
@@ -103,7 +103,7 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(87, 269);
+            label9.Location = new Point(98, 282);
             label9.Name = "label9";
             label9.Size = new Size(14, 24);
             label9.TabIndex = 15;
@@ -113,7 +113,7 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.Location = new Point(11, 269);
+            label10.Location = new Point(12, 282);
             label10.Name = "label10";
             label10.Size = new Size(77, 24);
             label10.TabIndex = 14;
@@ -121,16 +121,16 @@
             // 
             // textDate
             // 
-            textDate.Location = new Point(107, 473);
+            textDate.Location = new Point(120, 497);
             textDate.Name = "textDate";
-            textDate.Size = new Size(309, 27);
+            textDate.Size = new Size(347, 29);
             textDate.TabIndex = 13;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(87, 476);
+            label7.Location = new Point(98, 500);
             label7.Name = "label7";
             label7.Size = new Size(14, 24);
             label7.TabIndex = 12;
@@ -140,7 +140,7 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(11, 476);
+            label8.Location = new Point(12, 500);
             label8.Name = "label8";
             label8.Size = new Size(49, 24);
             label8.TabIndex = 11;
@@ -148,16 +148,16 @@
             // 
             // texttype
             // 
-            texttype.Location = new Point(107, 373);
+            texttype.Location = new Point(120, 392);
             texttype.Name = "texttype";
-            texttype.Size = new Size(309, 27);
+            texttype.Size = new Size(347, 29);
             texttype.TabIndex = 10;
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(87, 373);
+            label5.Location = new Point(98, 392);
             label5.Name = "label5";
             label5.Size = new Size(14, 24);
             label5.TabIndex = 9;
@@ -167,7 +167,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(11, 373);
+            label6.Location = new Point(12, 392);
             label6.Name = "label6";
             label6.RightToLeft = RightToLeft.No;
             label6.Size = new Size(50, 24);
@@ -176,16 +176,16 @@
             // 
             // textnic
             // 
-            textnic.Location = new Point(107, 172);
+            textnic.Location = new Point(120, 181);
             textnic.Name = "textnic";
-            textnic.Size = new Size(309, 27);
+            textnic.Size = new Size(347, 29);
             textnic.TabIndex = 7;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(87, 172);
+            label3.Location = new Point(98, 181);
             label3.Name = "label3";
             label3.Size = new Size(14, 24);
             label3.TabIndex = 6;
@@ -195,7 +195,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(11, 172);
+            label4.Location = new Point(12, 181);
             label4.Name = "label4";
             label4.Size = new Size(42, 24);
             label4.TabIndex = 5;
@@ -203,9 +203,9 @@
             // 
             // textname
             // 
-            textname.Location = new Point(107, 50);
+            textname.Location = new Point(120, 52);
             textname.Name = "textname";
-            textname.Size = new Size(309, 64);
+            textname.Size = new Size(347, 67);
             textname.TabIndex = 4;
             textname.Text = "";
             // 
@@ -213,7 +213,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(87, 50);
+            label2.Location = new Point(98, 52);
             label2.Name = "label2";
             label2.Size = new Size(14, 24);
             label2.TabIndex = 3;
@@ -223,7 +223,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(12, 50);
+            label1.Location = new Point(14, 52);
             label1.Name = "label1";
             label1.Size = new Size(59, 24);
             label1.TabIndex = 2;
@@ -232,18 +232,19 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI Variable Display Semib", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(326, 527);
+            button1.Location = new Point(367, 553);
             button1.Name = "button1";
-            button1.Size = new Size(94, 36);
+            button1.Size = new Size(106, 38);
             button1.TabIndex = 11;
             button1.Text = "Request";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textreason
             // 
-            textreason.Location = new Point(12, 88);
+            textreason.Location = new Point(14, 92);
             textreason.Name = "textreason";
-            textreason.Size = new Size(408, 412);
+            textreason.Size = new Size(458, 432);
             textreason.TabIndex = 10;
             textreason.Text = "";
             // 
@@ -251,7 +252,7 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(77, 50);
+            label11.Location = new Point(87, 52);
             label11.Name = "label11";
             label11.Size = new Size(14, 24);
             label11.TabIndex = 9;
@@ -262,7 +263,7 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.Location = new Point(12, 50);
+            label12.Location = new Point(14, 52);
             label12.Name = "label12";
             label12.Size = new Size(68, 24);
             label12.TabIndex = 8;
@@ -270,9 +271,9 @@
             // 
             // FireArmPermission
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(872, 618);
+            ClientSize = new Size(981, 649);
             Controls.Add(splitContainer1);
             Name = "FireArmPermission";
             Text = "FireArmPermission";
