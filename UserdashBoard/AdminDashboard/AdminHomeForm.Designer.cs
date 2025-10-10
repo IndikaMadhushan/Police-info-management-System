@@ -36,12 +36,13 @@
             btnUpdate = new Button();
             btnFautls = new Button();
             btnRegister = new Button();
+            panel2 = new Panel();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(128, 128, 255);
+            panel1.BackColor = Color.RoyalBlue;
             panel1.Controls.Add(buttonchangepwd);
             panel1.Controls.Add(buttonLogout);
             panel1.Controls.Add(btnHistory);
@@ -64,6 +65,7 @@
             buttonchangepwd.TabIndex = 6;
             buttonchangepwd.Text = "CHANGE PASSWORD";
             buttonchangepwd.UseVisualStyleBackColor = true;
+            buttonchangepwd.Click += buttonchangepwd_Click;
             // 
             // buttonLogout
             // 
@@ -76,6 +78,7 @@
             buttonLogout.TabIndex = 5;
             buttonLogout.Text = "LOG OUT";
             buttonLogout.UseVisualStyleBackColor = false;
+            buttonLogout.Click += buttonLogout_Click;
             // 
             // btnHistory
             // 
@@ -128,11 +131,19 @@
             btnRegister.UseVisualStyleBackColor = true;
             btnRegister.Click += buttonHome_Click;
             // 
+            // panel2
+            // 
+            panel2.Location = new Point(276, 2);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1345, 698);
+            panel2.TabIndex = 2;
+            // 
             // AdminHomeForm
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1617, 698);
+            Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "AdminHomeForm";
             Text = "AdminHomeForm";
@@ -151,5 +162,6 @@
         private Button btnUpdate;
         private Button btnFautls;
         private Button btnRegister;
+        private Panel panel2;
     }
 }
