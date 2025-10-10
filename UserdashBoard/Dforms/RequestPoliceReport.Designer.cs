@@ -63,7 +63,7 @@
             // 
             // splitContainer1.Panel1
             // 
-            splitContainer1.Panel1.BackColor = Color.FromArgb(192, 192, 255);
+            splitContainer1.Panel1.BackColor = Color.CornflowerBlue;
             splitContainer1.Panel1.Controls.Add(textmail);
             splitContainer1.Panel1.Controls.Add(textpossition);
             splitContainer1.Panel1.Controls.Add(textaddress);
@@ -241,9 +241,9 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(100, 508);
+            button1.Location = new Point(241, 526);
             button1.Name = "button1";
-            button1.Size = new Size(324, 43);
+            button1.Size = new Size(220, 43);
             button1.TabIndex = 9;
             button1.Text = "Request";
             button1.UseVisualStyleBackColor = true;
