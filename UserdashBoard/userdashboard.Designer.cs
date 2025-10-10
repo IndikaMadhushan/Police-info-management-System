@@ -70,13 +70,15 @@ namespace Forms.UserdashBoard
             // 
             // buttonLogout
             // 
+            buttonLogout.BackColor = Color.Red;
             buttonLogout.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            buttonLogout.Location = new Point(12, 588);
+            buttonLogout.ForeColor = SystemColors.ControlText;
+            buttonLogout.Location = new Point(12, 633);
             buttonLogout.Name = "buttonLogout";
             buttonLogout.Size = new Size(327, 52);
             buttonLogout.TabIndex = 5;
             buttonLogout.Text = "LOG OUT";
-            buttonLogout.UseVisualStyleBackColor = true;
+            buttonLogout.UseVisualStyleBackColor = false;
             buttonLogout.Click += buttonLogout_Click;
             // 
             // buttonInquiries
@@ -130,13 +132,13 @@ namespace Forms.UserdashBoard
             buttonHome.Name = "buttonHome";
             buttonHome.Size = new Size(327, 52);
             buttonHome.TabIndex = 0;
-            buttonHome.Text = "HOME";
+            buttonHome.Text = "PROFILE";
             buttonHome.UseVisualStyleBackColor = true;
             buttonHome.Click += buttonHome_Click;
             // 
             // panel2
             // 
-            panel2.Location = new Point(360, 0);
+            panel2.Location = new Point(363, 1);
             panel2.Name = "panel2";
             panel2.Size = new Size(1257, 698);
             panel2.TabIndex = 1;
