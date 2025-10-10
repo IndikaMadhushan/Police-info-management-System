@@ -122,6 +122,7 @@
             btnUpdate.TabIndex = 2;
             btnUpdate.Text = "UPDATE DETAILS";
             btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
             // btnFautls
             // 

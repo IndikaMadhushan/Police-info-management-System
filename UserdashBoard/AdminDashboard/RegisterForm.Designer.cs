@@ -103,7 +103,7 @@ namespace Forms.UserdashBoard.AdminDashboard
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI", 12F);
             label12.ForeColor = Color.Cornsilk;
-            label12.Location = new Point(83, 100);
+            label12.Location = new Point(83, 118);
             label12.Name = "label12";
             label12.Size = new Size(101, 28);
             label12.TabIndex = 22;
@@ -140,7 +140,7 @@ namespace Forms.UserdashBoard.AdminDashboard
             // 
             // textBox8
             // 
-            textBox8.Location = new Point(248, 500);
+            textBox8.Location = new Point(248, 546);
             textBox8.Multiline = true;
             textBox8.Name = "textBox8";
             textBox8.Size = new Size(443, 36);
@@ -148,7 +148,7 @@ namespace Forms.UserdashBoard.AdminDashboard
             // 
             // textBox7
             // 
-            textBox7.Location = new Point(248, 432);
+            textBox7.Location = new Point(248, 478);
             textBox7.Multiline = true;
             textBox7.Name = "textBox7";
             textBox7.Size = new Size(443, 36);
@@ -159,12 +159,12 @@ namespace Forms.UserdashBoard.AdminDashboard
             textBox6.Location = new Point(248, 38);
             textBox6.Multiline = true;
             textBox6.Name = "textBox6";
-            textBox6.Size = new Size(443, 36);
+            textBox6.Size = new Size(443, 62);
             textBox6.TabIndex = 16;
             // 
             // textBox5
             // 
-            textBox5.Location = new Point(248, 103);
+            textBox5.Location = new Point(248, 121);
             textBox5.Multiline = true;
             textBox5.Name = "textBox5";
             textBox5.Size = new Size(443, 36);
@@ -172,7 +172,7 @@ namespace Forms.UserdashBoard.AdminDashboard
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(248, 165);
+            textBox4.Location = new Point(248, 183);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(443, 36);
@@ -180,7 +180,7 @@ namespace Forms.UserdashBoard.AdminDashboard
             // 
             // textBox3
             // 
-            textBox3.Location = new Point(248, 365);
+            textBox3.Location = new Point(248, 411);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(443, 36);
@@ -188,15 +188,15 @@ namespace Forms.UserdashBoard.AdminDashboard
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(248, 298);
+            textBox2.Location = new Point(248, 316);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(443, 36);
+            textBox2.Size = new Size(443, 75);
             textBox2.TabIndex = 12;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(248, 227);
+            textBox1.Location = new Point(248, 245);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(443, 36);
@@ -218,7 +218,7 @@ namespace Forms.UserdashBoard.AdminDashboard
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI", 12F);
             label10.ForeColor = Color.Cornsilk;
-            label10.Location = new Point(83, 432);
+            label10.Location = new Point(83, 478);
             label10.Name = "label10";
             label10.Size = new Size(59, 28);
             label10.TabIndex = 9;
@@ -229,11 +229,11 @@ namespace Forms.UserdashBoard.AdminDashboard
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI", 12F);
             label9.ForeColor = Color.Cornsilk;
-            label9.Location = new Point(80, 295);
+            label9.Location = new Point(80, 313);
             label9.Name = "label9";
-            label9.Size = new Size(99, 28);
+            label9.Size = new Size(82, 28);
             label9.TabIndex = 8;
-            label9.Text = "Phone No";
+            label9.Text = "Address";
             // 
             // label5
             // 
@@ -262,7 +262,7 @@ namespace Forms.UserdashBoard.AdminDashboard
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI", 12F);
             label7.ForeColor = Color.Cornsilk;
-            label7.Location = new Point(83, 497);
+            label7.Location = new Point(83, 543);
             label7.Name = "label7";
             label7.Size = new Size(43, 28);
             label7.TabIndex = 5;
@@ -273,18 +273,19 @@ namespace Forms.UserdashBoard.AdminDashboard
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI", 12F);
             label8.ForeColor = Color.Cornsilk;
-            label8.Location = new Point(80, 362);
+            label8.Location = new Point(80, 408);
             label8.Name = "label8";
-            label8.Size = new Size(82, 28);
+            label8.Size = new Size(99, 28);
             label8.TabIndex = 4;
-            label8.Text = "Address";
+            label8.Text = "Phone No";
+            label8.UseMnemonic = false;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 12F);
             label3.ForeColor = Color.Cornsilk;
-            label3.Location = new Point(80, 227);
+            label3.Location = new Point(80, 245);
             label3.Name = "label3";
             label3.Size = new Size(125, 28);
             label3.TabIndex = 3;
@@ -295,7 +296,7 @@ namespace Forms.UserdashBoard.AdminDashboard
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F);
             label4.ForeColor = Color.Cornsilk;
-            label4.Location = new Point(83, 165);
+            label4.Location = new Point(83, 183);
             label4.Name = "label4";
             label4.Size = new Size(79, 28);
             label4.TabIndex = 2;
