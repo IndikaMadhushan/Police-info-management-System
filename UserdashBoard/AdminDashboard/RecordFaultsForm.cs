@@ -12,9 +12,16 @@ namespace Forms.UserdashBoard.AdminDashboard
 {
     public partial class RecordFaultsForm : Form
     {
-        public RecordFaultsForm()
+        private int userId;
+        public RecordFaultsForm(int userId)
         {
+            this.userId = userId;
             InitializeComponent();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
