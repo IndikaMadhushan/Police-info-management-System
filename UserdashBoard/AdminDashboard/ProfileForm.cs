@@ -63,7 +63,7 @@ namespace Forms.UserdashBoard.AdminDashboard
                                 }
                                 else
                                 {
-                                    picProfile.Image = Properties.Resources.default_avatar; // optional placeholder image
+                                    picProfile.Image = Properties.Resources.default_profile; // optional placeholder image
                                 }
                             }
                             else
@@ -78,6 +78,11 @@ namespace Forms.UserdashBoard.AdminDashboard
             {
                 MessageBox.Show("Error loading profile data:\n" + ex.Message, "Database Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

@@ -18,9 +18,11 @@ namespace Forms.Models
         public string Phone { get; set; }
         public string Email { get; set; }
         public DateTime? DateOfBirth { get; set; }
+        public byte[]? ProfilePicture { get; set; }
+
 
         public User(int userId, string username, string role, string name, string nic,
-                string address, string job, string phone, string email, DateTime? dob)
+                string address, string job, string phone, string email, DateTime? dob, byte[] profilePicture)
         {
             UserId = userId;
             Username = username;
@@ -32,6 +34,7 @@ namespace Forms.Models
             Phone = phone;
             Email = email;
             DateOfBirth = dob;
+            this.ProfilePicture = profilePicture;
         }
 
     }

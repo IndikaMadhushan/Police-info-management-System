@@ -312,11 +312,14 @@ namespace Forms.UserdashBoard.Dforms
             // 
             // pictureBox1
             // 
+            pictureBox1.AccessibleRole = AccessibleRole.OutlineButton;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(187, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(169, 158);
+            pictureBox1.Size = new Size(178, 176);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // groupBox1
             // 

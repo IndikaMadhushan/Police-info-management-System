@@ -38,7 +38,7 @@ namespace Forms.UserdashBoard.AdminDashboard
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
-
+            LoadFormInPanel(new RegisterForm());
         }
 
         private void buttonLogout_Click(object sender, EventArgs e)

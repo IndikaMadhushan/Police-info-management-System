@@ -74,7 +74,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1336, 698);
             panel1.TabIndex = 0;
-            //panel1.Paint += this.panel1_Paint;
+            panel1.Paint += panel1_Paint;
             // 
             // txtJob
             // 
@@ -142,6 +142,7 @@
             // 
             // picProfile
             // 
+            picProfile.BackgroundImageLayout = ImageLayout.Center;
             picProfile.Location = new Point(248, 10);
             picProfile.Name = "picProfile";
             picProfile.Size = new Size(274, 190);
@@ -228,7 +229,7 @@
             Controls.Add(panel1);
             Name = "ProfileForm";
             Text = "Profile";
-            Load += this.ProfileForm_Load;
+            Load += ProfileForm_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picProfile).EndInit();
