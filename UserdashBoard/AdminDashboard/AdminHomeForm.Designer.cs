@@ -72,7 +72,7 @@
             // buttonchangepwd
             // 
             buttonchangepwd.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonchangepwd.Location = new Point(12, 538);
+            buttonchangepwd.Location = new Point(9, 474);
             buttonchangepwd.Name = "buttonchangepwd";
             buttonchangepwd.Size = new Size(241, 52);
             buttonchangepwd.TabIndex = 6;
@@ -96,7 +96,7 @@
             // btnHistory
             // 
             btnHistory.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnHistory.Location = new Point(12, 350);
+            btnHistory.Location = new Point(12, 318);
             btnHistory.Name = "btnHistory";
             btnHistory.Size = new Size(241, 52);
             btnHistory.TabIndex = 4;
@@ -106,7 +106,7 @@
             // btnNotification
             // 
             btnNotification.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnNotification.Location = new Point(9, 442);
+            btnNotification.Location = new Point(9, 398);
             btnNotification.Name = "btnNotification";
             btnNotification.Size = new Size(244, 52);
             btnNotification.TabIndex = 3;
@@ -127,12 +127,13 @@
             // btnFautls
             // 
             btnFautls.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnFautls.Location = new Point(12, 261);
+            btnFautls.Location = new Point(12, 242);
             btnFautls.Name = "btnFautls";
             btnFautls.Size = new Size(241, 52);
             btnFautls.TabIndex = 1;
             btnFautls.Text = "RECORD FAULTS";
             btnFautls.UseVisualStyleBackColor = true;
+            btnFautls.Click += btnFautls_Click;
             // 
             // btnRegister
             // 
