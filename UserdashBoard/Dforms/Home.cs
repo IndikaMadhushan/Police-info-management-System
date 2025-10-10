@@ -41,6 +41,21 @@ namespace Forms.UserdashBoard.Dforms
             //Call method to load faults for the current user
             LoadFaults();
 
+            // Load profile picture if available
+            if (_currentUser.ProfilePicture != null && _currentUser.ProfilePicture.Length > 0)
+            {
+                using (var ms = new MemoryStream(_currentUser.ProfilePicture))
+                {
+                    pictureBox1.Image = Image.FromStream(ms);
+                }
+            }
+            else
+            {
+                // Optional: display a default placeholder image if user has no profile picture
+                pictureBox1.Image = Properties.Resources.default_profile; // Make sure to add one to your Resources
+            }
+
+
 
         }
 
@@ -95,6 +110,16 @@ namespace Forms.UserdashBoard.Dforms
         }
 
         private void textaddress_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitContainer1_Panel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

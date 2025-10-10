@@ -25,7 +25,7 @@ namespace Forms.BusinessLogic
 
             using (var conn = db.GetConnection())
             {
-                string query = @"SELECT user_id, password_hash, role, name, nic, address, job, phone, email, dob 
+                string query = @"SELECT user_id, password_hash, role, name, nic, address, job, phone, email, dob, profile_picture 
                                  FROM Users 
                                  WHERE username = @username AND is_active = 1";
 
@@ -47,12 +47,14 @@ namespace Forms.BusinessLogic
                             string phone = reader.IsDBNull(7) ? "" : reader.GetString(7);
                             string email = reader.IsDBNull(8) ? "" : reader.GetString(8);
                             DateTime? dob = reader.IsDBNull(9) ? (DateTime?)null : reader.GetDateTime(9);
+                            // public byte[] ProfilePicture;
+                            byte[] ProfilePicture = reader["profile_picture"] == DBNull.Value ? null : (byte[])reader["profile_picture"];
 
                             string hashedInput = PasswordHasher.HashPassword(password);
 
                             if (hashedInput == storedHash)
                             {
-                                return new User(userId, username, role, name, nic, address, job, phone, email, dob);
+                                return new User(userId, username, role, name, nic, address, job, phone, email, dob, ProfilePicture);
                             }
                         }
                     }

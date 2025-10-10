@@ -93,6 +93,7 @@ namespace Forms.UserdashBoard.Dforms
             splitContainer1.Panel1.Controls.Add(label2);
             splitContainer1.Panel1.Controls.Add(label1);
             splitContainer1.Panel1.Controls.Add(pictureBox1);
+            splitContainer1.Panel1.Paint += splitContainer1_Panel1_Paint_1;
             // 
             // splitContainer1.Panel2
             // 
@@ -106,9 +107,10 @@ namespace Forms.UserdashBoard.Dforms
             // 
             textaddress.Enabled = false;
             textaddress.Location = new Point(150, 319);
+            textaddress.Multiline = true;
             textaddress.Name = "textaddress";
             textaddress.ReadOnly = true;
-            textaddress.Size = new Size(297, 29);
+            textaddress.Size = new Size(431, 29);
             textaddress.TabIndex = 21;
             textaddress.TextChanged += textaddress_TextChanged;
             // 
@@ -118,7 +120,7 @@ namespace Forms.UserdashBoard.Dforms
             textDate.Location = new Point(150, 579);
             textDate.Name = "textDate";
             textDate.ReadOnly = true;
-            textDate.Size = new Size(297, 29);
+            textDate.Size = new Size(431, 29);
             textDate.TabIndex = 20;
             // 
             // textmail
@@ -127,7 +129,7 @@ namespace Forms.UserdashBoard.Dforms
             textmail.Location = new Point(150, 525);
             textmail.Name = "textmail";
             textmail.ReadOnly = true;
-            textmail.Size = new Size(297, 29);
+            textmail.Size = new Size(431, 29);
             textmail.TabIndex = 19;
             // 
             // texttel
@@ -136,16 +138,17 @@ namespace Forms.UserdashBoard.Dforms
             texttel.Location = new Point(150, 456);
             texttel.Name = "texttel";
             texttel.ReadOnly = true;
-            texttel.Size = new Size(297, 29);
+            texttel.Size = new Size(431, 29);
             texttel.TabIndex = 18;
             // 
             // textjob
             // 
             textjob.Enabled = false;
             textjob.Location = new Point(150, 392);
+            textjob.Multiline = true;
             textjob.Name = "textjob";
             textjob.ReadOnly = true;
-            textjob.Size = new Size(297, 29);
+            textjob.Size = new Size(431, 29);
             textjob.TabIndex = 17;
             // 
             // textid
@@ -154,7 +157,7 @@ namespace Forms.UserdashBoard.Dforms
             textid.Location = new Point(150, 258);
             textid.Name = "textid";
             textid.ReadOnly = true;
-            textid.Size = new Size(297, 29);
+            textid.Size = new Size(431, 29);
             textid.TabIndex = 16;
             // 
             // textname
@@ -163,7 +166,7 @@ namespace Forms.UserdashBoard.Dforms
             textname.Location = new Point(150, 194);
             textname.Name = "textname";
             textname.ReadOnly = true;
-            textname.Size = new Size(297, 29);
+            textname.Size = new Size(431, 29);
             textname.TabIndex = 15;
             // 
             // label14
@@ -309,11 +312,14 @@ namespace Forms.UserdashBoard.Dforms
             // 
             // pictureBox1
             // 
+            pictureBox1.AccessibleRole = AccessibleRole.OutlineButton;
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             pictureBox1.Location = new Point(187, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(169, 158);
+            pictureBox1.Size = new Size(178, 176);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // groupBox1
             // 
