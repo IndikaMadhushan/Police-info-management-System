@@ -71,5 +71,10 @@ namespace Forms.UserdashBoard.AdminDashboard
         {
             LoadFormInPanel(new ProfileForm(currentUserId));
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new UpdateDetailsForm());
+        }
     }
 }
