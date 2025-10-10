@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            btnProfile = new Button();
             buttonchangepwd = new Button();
             buttonLogout = new Button();
             btnHistory = new Button();
@@ -43,6 +44,7 @@
             // panel1
             // 
             panel1.BackColor = Color.RoyalBlue;
+            panel1.Controls.Add(btnProfile);
             panel1.Controls.Add(buttonchangepwd);
             panel1.Controls.Add(buttonLogout);
             panel1.Controls.Add(btnHistory);
@@ -56,10 +58,21 @@
             panel1.TabIndex = 1;
             panel1.Paint += panel1_Paint;
             // 
+            // btnProfile
+            // 
+            btnProfile.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnProfile.Location = new Point(12, 12);
+            btnProfile.Name = "btnProfile";
+            btnProfile.Size = new Size(241, 52);
+            btnProfile.TabIndex = 7;
+            btnProfile.Text = "PROFILE";
+            btnProfile.UseVisualStyleBackColor = true;
+            btnProfile.Click += btnProfile_Click;
+            // 
             // buttonchangepwd
             // 
             buttonchangepwd.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonchangepwd.Location = new Point(12, 485);
+            buttonchangepwd.Location = new Point(12, 538);
             buttonchangepwd.Name = "buttonchangepwd";
             buttonchangepwd.Size = new Size(241, 52);
             buttonchangepwd.TabIndex = 6;
@@ -83,7 +96,7 @@
             // btnHistory
             // 
             btnHistory.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnHistory.Location = new Point(12, 297);
+            btnHistory.Location = new Point(12, 350);
             btnHistory.Name = "btnHistory";
             btnHistory.Size = new Size(241, 52);
             btnHistory.TabIndex = 4;
@@ -93,7 +106,7 @@
             // btnNotification
             // 
             btnNotification.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnNotification.Location = new Point(9, 389);
+            btnNotification.Location = new Point(9, 442);
             btnNotification.Name = "btnNotification";
             btnNotification.Size = new Size(244, 52);
             btnNotification.TabIndex = 3;
@@ -103,7 +116,7 @@
             // btnUpdate
             // 
             btnUpdate.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnUpdate.Location = new Point(12, 113);
+            btnUpdate.Location = new Point(12, 166);
             btnUpdate.Name = "btnUpdate";
             btnUpdate.Size = new Size(241, 52);
             btnUpdate.TabIndex = 2;
@@ -113,7 +126,7 @@
             // btnFautls
             // 
             btnFautls.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            btnFautls.Location = new Point(12, 208);
+            btnFautls.Location = new Point(12, 261);
             btnFautls.Name = "btnFautls";
             btnFautls.Size = new Size(241, 52);
             btnFautls.TabIndex = 1;
@@ -123,7 +136,7 @@
             // btnRegister
             // 
             btnRegister.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnRegister.Location = new Point(12, 29);
+            btnRegister.Location = new Point(12, 91);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(241, 52);
             btnRegister.TabIndex = 0;
@@ -163,5 +176,6 @@
         private Button btnFautls;
         private Button btnRegister;
         private Panel panel2;
+        private Button btnProfile;
     }
 }

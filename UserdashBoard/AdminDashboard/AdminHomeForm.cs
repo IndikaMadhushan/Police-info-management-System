@@ -66,5 +66,10 @@ namespace Forms.UserdashBoard.AdminDashboard
 
             LoadFormInPanel(changePasswordForm);
         }
+
+        private void btnProfile_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new ProfileForm(currentUserId));
+        }
     }
 }
