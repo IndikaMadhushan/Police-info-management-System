@@ -86,5 +86,10 @@ namespace Forms.UserdashBoard.AdminDashboard
         {
             LoadFormInPanel(new HistoryForm());
         }
+
+        private void btnNotification_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new NotificationForm());
+        }
     }
 }
