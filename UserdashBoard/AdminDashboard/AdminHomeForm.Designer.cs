@@ -113,6 +113,7 @@
             btnNotification.TabIndex = 3;
             btnNotification.Text = "NOTIFICATION";
             btnNotification.UseVisualStyleBackColor = true;
+            btnNotification.Click += btnNotification_Click;
             // 
             // btnUpdate
             // 
