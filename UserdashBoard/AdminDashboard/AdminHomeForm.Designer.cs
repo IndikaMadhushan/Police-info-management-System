@@ -102,6 +102,7 @@
             btnHistory.TabIndex = 4;
             btnHistory.Text = "USER HISTORY";
             btnHistory.UseVisualStyleBackColor = true;
+            btnHistory.Click += btnHistory_Click;
             // 
             // btnNotification
             // 
