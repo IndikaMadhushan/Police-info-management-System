@@ -81,5 +81,10 @@ namespace Forms.UserdashBoard.AdminDashboard
         {
             LoadFormInPanel(new RecordFaultsForm(currentUserId));
         }
+
+        private void btnHistory_Click(object sender, EventArgs e)
+        {
+            LoadFormInPanel(new HistoryForm());
+        }
     }
 }
