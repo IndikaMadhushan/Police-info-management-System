@@ -11,7 +11,10 @@ namespace Forms.DataAccess
         public string FaultType { get; set; } = string.Empty;
         public decimal FineAmount { get; set; }
         public DateTime DateRecorded { get; set; }
-        public string Status { get; set; } = string.Empty;
+        public DateTime FaultDate { get; set; }
+        public int UserId { get; set; }
+        public int RecordedBy { get; set; }
+        public string Status { get; set; } = "Active";
 
         public override string ToString()
         {
@@ -56,5 +59,46 @@ namespace Forms.DataAccess
 
             return faults;
         }
+
+        public static bool RecordFault(Fault fault)
+        {
+            var db = DatabaseConnection.Instance;
+            using (SqlConnection conn = db.GetConnection())
+            {
+                string query = @"INSERT INTO Faults (user_id, description, fault_type, fine_amount, recorded_by, fault_date, status)
+                                 VALUES (@user_id, @description, @fault_type, @fine_amount, @recorded_by, @fault_date, @status)";
+
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@user_id", fault.UserId);
+                    cmd.Parameters.AddWithValue("@description", fault.Description);
+                    cmd.Parameters.AddWithValue("@fault_type", fault.FaultType);
+                    cmd.Parameters.AddWithValue("@fine_amount", fault.FineAmount);
+                    cmd.Parameters.AddWithValue("@recorded_by", fault.RecordedBy);
+                    cmd.Parameters.AddWithValue("@fault_date", fault.FaultDate);
+                    cmd.Parameters.AddWithValue("@status", fault.Status);
+
+                    int rows = cmd.ExecuteNonQuery();
+                    return rows > 0;
+                }
+            }
+        }
+
+        // ✅ Helper to get user_id by NIC
+        public static int? GetUserIdByNIC(string nic)
+        {
+            var db = DatabaseConnection.Instance;
+            using (SqlConnection conn = db.GetConnection())
+            {
+                string query = "SELECT user_id FROM Users WHERE NIC = @nic";
+                using (SqlCommand cmd = new SqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@nic", nic);
+                    object result = cmd.ExecuteScalar();
+                    return result != null ? Convert.ToInt32(result) : (int?)null;
+                }
+            }
+        }
     }
 }
+
