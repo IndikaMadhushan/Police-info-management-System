@@ -29,17 +29,17 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
-            label1 = new Label();
-            label2 = new Label();
+            button1 = new Button();
+            textBox5 = new TextBox();
+            textBox4 = new TextBox();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            textBox1 = new TextBox();
+            label8 = new Label();
             label3 = new Label();
             label4 = new Label();
-            label8 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            button1 = new Button();
+            label2 = new Label();
+            label1 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -63,29 +63,68 @@
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
-            // label1
+            // button1
             // 
-            label1.AutoSize = true;
-            label1.BackColor = SystemColors.Highlight;
-            label1.Font = new Font("Segoe UI", 16.2F);
-            label1.ForeColor = Color.Cornsilk;
-            label1.Location = new Point(97, 102);
-            label1.Name = "label1";
-            label1.Size = new Size(107, 38);
-            label1.TabIndex = 0;
-            label1.Text = "NIC No";
+            button1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            button1.Location = new Point(934, 597);
+            button1.Name = "button1";
+            button1.Size = new Size(224, 53);
+            button1.TabIndex = 10;
+            button1.Text = "Record Faults";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
-            // label2
+            // textBox5
             // 
-            label2.AutoSize = true;
-            label2.BackColor = SystemColors.Highlight;
-            label2.Font = new Font("Segoe UI", 16.2F);
-            label2.ForeColor = Color.Cornsilk;
-            label2.Location = new Point(97, 182);
-            label2.Name = "label2";
-            label2.Size = new Size(158, 38);
-            label2.TabIndex = 1;
-            label2.Text = "Description";
+            textBox5.Location = new Point(323, 528);
+            textBox5.Multiline = true;
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(442, 36);
+            textBox5.TabIndex = 9;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(323, 443);
+            textBox4.Multiline = true;
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(442, 36);
+            textBox4.TabIndex = 8;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(323, 363);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(442, 36);
+            textBox3.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(323, 184);
+            textBox2.Multiline = true;
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(442, 124);
+            textBox2.TabIndex = 6;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(323, 103);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(442, 36);
+            textBox1.TabIndex = 5;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = SystemColors.Highlight;
+            label8.Font = new Font("Segoe UI", 16.2F);
+            label8.ForeColor = Color.Cornsilk;
+            label8.Location = new Point(97, 528);
+            label8.Name = "label8";
+            label8.Size = new Size(142, 38);
+            label8.TabIndex = 4;
+            label8.Text = "Fault Date";
             // 
             // label3
             // 
@@ -111,67 +150,29 @@
             label4.TabIndex = 2;
             label4.Text = "Fault Type";
             // 
-            // label8
+            // label2
             // 
-            label8.AutoSize = true;
-            label8.BackColor = SystemColors.Highlight;
-            label8.Font = new Font("Segoe UI", 16.2F);
-            label8.ForeColor = Color.Cornsilk;
-            label8.Location = new Point(97, 528);
-            label8.Name = "label8";
-            label8.Size = new Size(142, 38);
-            label8.TabIndex = 4;
-            label8.Text = "Fault Date";
+            label2.AutoSize = true;
+            label2.BackColor = SystemColors.Highlight;
+            label2.Font = new Font("Segoe UI", 16.2F);
+            label2.ForeColor = Color.Cornsilk;
+            label2.Location = new Point(97, 182);
+            label2.Name = "label2";
+            label2.Size = new Size(158, 38);
+            label2.TabIndex = 1;
+            label2.Text = "Description";
             // 
-            // textBox1
+            // label1
             // 
-            textBox1.Location = new Point(323, 103);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(442, 36);
-            textBox1.TabIndex = 5;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(323, 184);
-            textBox2.Multiline = true;
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(442, 124);
-            textBox2.TabIndex = 6;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(323, 363);
-            textBox3.Multiline = true;
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(442, 36);
-            textBox3.TabIndex = 7;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(323, 443);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(442, 36);
-            textBox4.TabIndex = 8;
-            // 
-            // textBox5
-            // 
-            textBox5.Location = new Point(323, 528);
-            textBox5.Multiline = true;
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(442, 36);
-            textBox5.TabIndex = 9;
-            // 
-            // button1
-            // 
-            button1.Font = new Font("Segoe UI", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(934, 597);
-            button1.Name = "button1";
-            button1.Size = new Size(224, 53);
-            button1.TabIndex = 10;
-            button1.Text = "Record Faults";
-            button1.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.BackColor = SystemColors.Highlight;
+            label1.Font = new Font("Segoe UI", 16.2F);
+            label1.ForeColor = Color.Cornsilk;
+            label1.Location = new Point(97, 102);
+            label1.Name = "label1";
+            label1.Size = new Size(107, 38);
+            label1.TabIndex = 0;
+            label1.Text = "NIC No";
             // 
             // RecordFaultsForm
             // 
