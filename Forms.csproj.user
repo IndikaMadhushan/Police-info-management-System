@@ -34,7 +34,7 @@
     <Compile Update="UserdashBoard\Dforms\Home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UserdashBoard\Dforms\PayBountyFee.cs">
+    <Compile Update="UserdashBoard\Dforms\BountyPaymentForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="UserdashBoard\Dforms\PlaceInquries.cs">
