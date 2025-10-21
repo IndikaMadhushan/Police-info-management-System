@@ -1,6 +1,7 @@
 ﻿using Forms.DataAccess;
 using Forms.Models;
 using Forms.UserdashBoard.Dforms;
+using Forms.UserdashBoard.UserDashboard;
 using login;
 using System;
 using System.Collections.Generic;
@@ -16,12 +17,12 @@ using System.Windows.Forms;
 namespace Forms.UserdashBoard
 {
 
-    public partial class UserDashboard : Form
+    public partial class userdashboard : Form
     {
         private readonly User _currentUser;
         private int currentUserId;
 
-        public UserDashboard(User user)
+        public userdashboard(User user)
         {
             InitializeComponent();
             _currentUser = user;
@@ -59,7 +60,7 @@ namespace Forms.UserdashBoard
 
         private void buttonPay_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new PayBountyFee());
+            LoadFormInPanel(new BountyPaymentForm(currentUserId));
         }
 
         private void buttonReport_Click(object sender, EventArgs e)

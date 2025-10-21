@@ -21,7 +21,7 @@ namespace Forms.Factories
             {
 
                 "Admin" => new AdminHomeForm(user),
-                "User" => new UserDashboard(user),
+                "User" => new userdashboard(user),
                 _ => null
 
             };

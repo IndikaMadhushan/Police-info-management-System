@@ -104,5 +104,10 @@ namespace Forms.UserdashBoard.Dforms
             textreason.Clear();
             textDate.Text = DateTime.Now.ToString("yyyy-MM-dd");
         }
+
+        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
