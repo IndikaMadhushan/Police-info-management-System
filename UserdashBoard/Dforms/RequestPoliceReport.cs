@@ -93,5 +93,13 @@ namespace Forms.UserdashBoard.Dforms
             textmail.Clear();
             textreason.Clear();
         }
+<<<<<<< HEAD
+
+        private void textreason_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+=======
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
     }
 }

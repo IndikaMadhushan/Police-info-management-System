@@ -26,7 +26,7 @@ namespace login
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string path = @"C:\Users\asus\OneDrive\Desktop\forms\login\Resources\logo.jpg";
+            string path = @"C:\Users\asus\OneDrive\Desktop\PoliceManagement\Login\policelogo.jpeg";
 
             if (File.Exists(path))
             {

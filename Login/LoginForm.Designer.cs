@@ -70,8 +70,13 @@
             splitContainer1.Panel2.Controls.Add(txtUsername);
             splitContainer1.Panel2.Controls.Add(label3);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
+<<<<<<< HEAD
+            splitContainer1.Size = new Size(951, 540);
+            splitContainer1.SplitterDistance = 298;
+=======
             splitContainer1.Size = new Size(1070, 567);
             splitContainer1.SplitterDistance = 336;
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             splitContainer1.TabIndex = 1;
             // 
             // label1
@@ -86,8 +91,13 @@
             // 
             // pictureBox1
             // 
+<<<<<<< HEAD
+            pictureBox1.BackgroundImage = Forms.Properties.Resources.policelogo;
+            pictureBox1.Location = new Point(30, 77);
+=======
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Location = new Point(33, 81);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(273, 238);
             pictureBox1.TabIndex = 0;

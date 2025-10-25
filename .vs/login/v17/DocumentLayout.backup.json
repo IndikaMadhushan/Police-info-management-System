@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\userdashboard\\admindashboard\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\admindashboard\\adminhomeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\userdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\userdashboard\\admindashboard\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\admindashboard\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\userdashboard\\admindashboard\\notificationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:userdashboard\\admindashboard\\notificationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:login\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:properties\\resources.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|c:\\users\\asus\\onedrive\\desktop\\policemanagement\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{6308EAA7-AF2B-4417-99EB-3C84F95AC8FF}|Forms.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NotificationForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\NotificationForm.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\AdminDashboard\\NotificationForm.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\NotificationForm.cs [Design]",
+              "RelativeToolTip": "UserdashBoard\\AdminDashboard\\NotificationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:39:09.406Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HistoryForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\HistoryForm.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\AdminDashboard\\HistoryForm.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\HistoryForm.cs [Design]",
+              "RelativeToolTip": "UserdashBoard\\AdminDashboard\\HistoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:37:16.186Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "userdashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\userdashboard.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\userdashboard.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\userdashboard.cs [Design]",
+              "RelativeToolTip": "UserdashBoard\\userdashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:34:15.485Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Resources.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Properties\\Resources.Designer.cs",
+              "RelativeDocumentMoniker": "Properties\\Resources.Designer.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Properties\\Resources.Designer.cs",
+              "RelativeToolTip": "Properties\\Resources.Designer.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAIA/wG4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:24:54.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminHomeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminHomeForm.cs",
+              "RelativeDocumentMoniker": "UserdashBoard\\AdminDashboard\\AdminHomeForm.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\UserdashBoard\\AdminDashboard\\AdminHomeForm.cs [Design]*",
+              "RelativeToolTip": "UserdashBoard\\AdminDashboard\\AdminHomeForm.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:23:08.713Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T07:22:09.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-10-25T07:06:53.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Login\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Login\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Login\\LoginForm.cs",
+              "RelativeToolTip": "Login\\LoginForm.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAkwDAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T05:15:25.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Login\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Login\\LoginForm.cs",
+              "ToolTip": "C:\\Users\\asus\\OneDrive\\Desktop\\PoliceManagement\\Login\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Login\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T05:15:13.967Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOcUAAAAAAAAAAAnwFIWAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-10-03T15:21:51.945Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

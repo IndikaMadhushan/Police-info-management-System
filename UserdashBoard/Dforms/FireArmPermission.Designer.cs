@@ -48,10 +48,14 @@
             textreason = new RichTextBox();
             label11 = new Label();
             label12 = new Label();
+            panelHeader = new Panel();
+            lblHeader = new Label();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
             splitContainer1.SuspendLayout();
+            panelHeader.SuspendLayout();
             SuspendLayout();
             // 
             // splitContainer1
@@ -63,6 +67,7 @@
             // splitContainer1.Panel1
             // 
             splitContainer1.Panel1.BackColor = Color.FromArgb(192, 192, 255);
+            splitContainer1.Panel1.Controls.Add(panelHeader);
             splitContainer1.Panel1.Controls.Add(Textaddress);
             splitContainer1.Panel1.Controls.Add(label9);
             splitContainer1.Panel1.Controls.Add(label10);
@@ -83,13 +88,19 @@
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.FromArgb(192, 192, 255);
+            splitContainer1.Panel2.Controls.Add(panel1);
             splitContainer1.Panel2.Controls.Add(button1);
             splitContainer1.Panel2.Controls.Add(textreason);
             splitContainer1.Panel2.Controls.Add(label11);
             splitContainer1.Panel2.Controls.Add(label12);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
+<<<<<<< HEAD
+            splitContainer1.Size = new Size(872, 618);
+            splitContainer1.SplitterDistance = 435;
+=======
             splitContainer1.Size = new Size(981, 649);
             splitContainer1.SplitterDistance = 490;
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             splitContainer1.TabIndex = 0;
             // 
             // Textaddress
@@ -177,7 +188,11 @@
             // 
             // textnic
             // 
+<<<<<<< HEAD
+            textnic.Location = new Point(107, 189);
+=======
             textnic.Location = new Point(120, 181);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textnic.Name = "textnic";
             textnic.Size = new Size(347, 29);
             textnic.TabIndex = 7;
@@ -186,7 +201,11 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
+            label3.Location = new Point(87, 189);
+=======
             label3.Location = new Point(98, 181);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label3.Name = "label3";
             label3.Size = new Size(14, 24);
             label3.TabIndex = 6;
@@ -196,7 +215,11 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
+            label4.Location = new Point(11, 189);
+=======
             label4.Location = new Point(12, 181);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label4.Name = "label4";
             label4.Size = new Size(42, 24);
             label4.TabIndex = 5;
@@ -204,7 +227,11 @@
             // 
             // textname
             // 
+<<<<<<< HEAD
+            textname.Location = new Point(107, 88);
+=======
             textname.Location = new Point(120, 52);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textname.Name = "textname";
             textname.Size = new Size(347, 67);
             textname.TabIndex = 4;
@@ -214,7 +241,11 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
+            label2.Location = new Point(87, 88);
+=======
             label2.Location = new Point(98, 52);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label2.Name = "label2";
             label2.Size = new Size(14, 24);
             label2.TabIndex = 3;
@@ -224,7 +255,11 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
+            label1.Location = new Point(12, 88);
+=======
             label1.Location = new Point(14, 52);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label1.Name = "label1";
             label1.Size = new Size(59, 24);
             label1.TabIndex = 2;
@@ -243,9 +278,15 @@
             // 
             // textreason
             // 
+<<<<<<< HEAD
+            textreason.Location = new Point(12, 111);
+            textreason.Name = "textreason";
+            textreason.Size = new Size(408, 389);
+=======
             textreason.Location = new Point(14, 92);
             textreason.Name = "textreason";
             textreason.Size = new Size(458, 432);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textreason.TabIndex = 10;
             textreason.Text = "";
             // 
@@ -253,7 +294,11 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
+            label11.Location = new Point(77, 88);
+=======
             label11.Location = new Point(87, 52);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label11.Name = "label11";
             label11.Size = new Size(14, 24);
             label11.TabIndex = 9;
@@ -264,11 +309,47 @@
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
+            label12.Location = new Point(12, 88);
+=======
             label12.Location = new Point(14, 52);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label12.Name = "label12";
             label12.Size = new Size(68, 24);
             label12.TabIndex = 8;
             label12.Text = "Reason";
+            // 
+            // panelHeader
+            // 
+            panelHeader.BackColor = Color.FromArgb(128, 128, 255);
+            panelHeader.Controls.Add(lblHeader);
+            panelHeader.Dock = DockStyle.Top;
+            panelHeader.ForeColor = SystemColors.ActiveCaptionText;
+            panelHeader.Location = new Point(0, 0);
+            panelHeader.Name = "panelHeader";
+            panelHeader.Size = new Size(435, 60);
+            panelHeader.TabIndex = 17;
+            // 
+            // lblHeader
+            // 
+            lblHeader.AutoSize = true;
+            lblHeader.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            lblHeader.ForeColor = Color.Black;
+            lblHeader.Location = new Point(12, 10);
+            lblHeader.Name = "lblHeader";
+            lblHeader.Size = new Size(274, 37);
+            lblHeader.TabIndex = 0;
+            lblHeader.Text = "Fire Arm Permission";
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.FromArgb(128, 128, 255);
+            panel1.Dock = DockStyle.Top;
+            panel1.ForeColor = SystemColors.ActiveCaptionText;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(433, 60);
+            panel1.TabIndex = 12;
             // 
             // FireArmPermission
             // 
@@ -285,6 +366,8 @@
             splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
             splitContainer1.ResumeLayout(false);
+            panelHeader.ResumeLayout(false);
+            panelHeader.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -310,5 +393,8 @@
         private RichTextBox textreason;
         private Button button1;
         private RichTextBox Textaddress;
+        private Panel panelHeader;
+        private Label lblHeader;
+        private Panel panel1;
     }
 }
