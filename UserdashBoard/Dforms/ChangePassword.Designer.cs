@@ -48,7 +48,11 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
             label1.Location = new Point(246, 145);
+=======
+            label1.Location = new Point(14, 160);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label1.Name = "label1";
             label1.Size = new Size(155, 24);
             label1.TabIndex = 0;
@@ -58,7 +62,11 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
             label2.Location = new Point(432, 145);
+=======
+            label2.Location = new Point(223, 160);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label2.Name = "label2";
             label2.Size = new Size(14, 24);
             label2.TabIndex = 1;
@@ -68,7 +76,11 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
             label5.Location = new Point(432, 264);
+=======
+            label5.Location = new Point(223, 285);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label5.Name = "label5";
             label5.Size = new Size(14, 24);
             label5.TabIndex = 5;
@@ -78,7 +90,11 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
             label6.Location = new Point(246, 264);
+=======
+            label6.Location = new Point(14, 285);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label6.Name = "label6";
             label6.Size = new Size(129, 24);
             label6.TabIndex = 4;
@@ -86,24 +102,40 @@ namespace Forms.UserdashBoard.Dforms
             // 
             // textBox1
             // 
+<<<<<<< HEAD
             textBox1.Location = new Point(521, 145);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(392, 27);
+=======
+            textBox1.Location = new Point(323, 160);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(440, 29);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textBox1.TabIndex = 6;
             textBox1.TextChanged += textBox1_TextChanged_1;
             // 
             // textBox3
             // 
+<<<<<<< HEAD
             textBox3.Location = new Point(521, 264);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(392, 27);
+=======
+            textBox3.Location = new Point(323, 285);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(440, 29);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textBox3.TabIndex = 8;
             // 
             // label7
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
             label7.Location = new Point(246, 386);
+=======
+            label7.Location = new Point(14, 413);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label7.Name = "label7";
             label7.Size = new Size(163, 24);
             label7.TabIndex = 2;
@@ -113,7 +145,11 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI Variable Display Semib", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+<<<<<<< HEAD
             label8.Location = new Point(432, 386);
+=======
+            label8.Location = new Point(223, 413);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label8.Name = "label8";
             label8.Size = new Size(14, 24);
             label8.TabIndex = 3;
@@ -121,21 +157,33 @@ namespace Forms.UserdashBoard.Dforms
             // 
             // textBox4
             // 
+<<<<<<< HEAD
             textBox4.Location = new Point(521, 383);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(392, 27);
+=======
+            textBox4.Location = new Point(323, 409);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(440, 29);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textBox4.TabIndex = 7;
             // 
             // button1
             // 
+<<<<<<< HEAD
             button1.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.Location = new Point(779, 483);
+=======
+            button1.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            button1.Location = new Point(612, 530);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             button1.Name = "button1";
-            button1.Size = new Size(134, 38);
+            button1.Size = new Size(151, 40);
             button1.TabIndex = 9;
             button1.Text = "CONFIRM";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
+<<<<<<< HEAD
             // 
             // panelHeader
             // 
@@ -158,14 +206,20 @@ namespace Forms.UserdashBoard.Dforms
             lblHeader.Size = new Size(242, 37);
             lblHeader.TabIndex = 0;
             lblHeader.Text = "Change Password";
+=======
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             // 
             // ChangePassword
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(192, 192, 255);
+<<<<<<< HEAD
             ClientSize = new Size(1170, 600);
             Controls.Add(panelHeader);
+=======
+            ClientSize = new Size(845, 630);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             Controls.Add(button1);
             Controls.Add(textBox3);
             Controls.Add(textBox4);
@@ -179,12 +233,19 @@ namespace Forms.UserdashBoard.Dforms
             Name = "ChangePassword";
             Text = "ChangePassword";
             Load += ChangePassword_Load;
+<<<<<<< HEAD
             panelHeader.ResumeLayout(false);
             panelHeader.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
 
 
+=======
+            ResumeLayout(false);
+            PerformLayout();
+
+           
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
         }
 
         private void ChangePassword_Load(object sender, EventArgs e)

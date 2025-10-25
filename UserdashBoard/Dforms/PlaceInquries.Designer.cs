@@ -86,37 +86,58 @@
             splitContainer1.Panel2.Controls.Add(textinquary);
             splitContainer1.Panel2.Controls.Add(label10);
             splitContainer1.Panel2.Controls.Add(label9);
+<<<<<<< HEAD
             splitContainer1.Size = new Size(872, 618);
             splitContainer1.SplitterDistance = 429;
+=======
+            splitContainer1.Size = new Size(981, 649);
+            splitContainer1.SplitterDistance = 483;
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             splitContainer1.TabIndex = 0;
             // 
             // textdate
             // 
+<<<<<<< HEAD
             textdate.Location = new Point(106, 548);
+=======
+            textdate.Location = new Point(119, 545);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textdate.Name = "textdate";
-            textdate.Size = new Size(309, 27);
+            textdate.Size = new Size(347, 29);
             textdate.TabIndex = 12;
             // 
             // textaddress
             // 
+<<<<<<< HEAD
             textaddress.Location = new Point(106, 297);
+=======
+            textaddress.Location = new Point(119, 276);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textaddress.Name = "textaddress";
-            textaddress.Size = new Size(309, 224);
+            textaddress.Size = new Size(347, 235);
             textaddress.TabIndex = 11;
             textaddress.Text = "";
             // 
             // textnic
             // 
+<<<<<<< HEAD
             textnic.Location = new Point(106, 239);
+=======
+            textnic.Location = new Point(119, 198);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textnic.Name = "textnic";
-            textnic.Size = new Size(309, 27);
+            textnic.Size = new Size(347, 29);
             textnic.TabIndex = 10;
             // 
             // label8
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label8.Location = new Point(88, 128);
+=======
+            label8.Location = new Point(99, 39);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label8.Name = "label8";
             label8.Size = new Size(12, 20);
             label8.TabIndex = 9;
@@ -126,7 +147,11 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label7.Location = new Point(88, 297);
+=======
+            label7.Location = new Point(99, 276);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label7.Name = "label7";
             label7.Size = new Size(12, 20);
             label7.TabIndex = 8;
@@ -136,7 +161,11 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label6.Location = new Point(88, 551);
+=======
+            label6.Location = new Point(99, 548);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label6.Name = "label6";
             label6.Size = new Size(12, 20);
             label6.TabIndex = 7;
@@ -146,7 +175,11 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label2.Location = new Point(88, 242);
+=======
+            label2.Location = new Point(99, 202);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label2.Name = "label2";
             label2.Size = new Size(12, 20);
             label2.TabIndex = 6;
@@ -155,9 +188,15 @@
             // 
             // textname
             // 
+<<<<<<< HEAD
             textname.Location = new Point(106, 128);
             textname.Name = "textname";
             textname.Size = new Size(309, 93);
+=======
+            textname.Location = new Point(119, 39);
+            textname.Name = "textname";
+            textname.Size = new Size(347, 97);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textname.TabIndex = 5;
             textname.Text = "";
             textname.TextChanged += textname_TextChanged;
@@ -166,7 +205,11 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label5.Location = new Point(12, 242);
+=======
+            label5.Location = new Point(14, 202);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label5.Name = "label5";
             label5.Size = new Size(59, 20);
             label5.TabIndex = 4;
@@ -176,7 +219,11 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label4.Location = new Point(12, 297);
+=======
+            label4.Location = new Point(14, 276);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label4.Name = "label4";
             label4.Size = new Size(65, 20);
             label4.TabIndex = 3;
@@ -186,7 +233,11 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label3.Location = new Point(12, 551);
+=======
+            label3.Location = new Point(14, 548);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label3.Name = "label3";
             label3.Size = new Size(42, 20);
             label3.TabIndex = 2;
@@ -196,7 +247,11 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label1.Location = new Point(12, 128);
+=======
+            label1.Location = new Point(14, 39);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label1.Name = "label1";
             label1.Size = new Size(49, 20);
             label1.TabIndex = 0;
@@ -204,10 +259,15 @@
             // 
             // buttonsave
             // 
+<<<<<<< HEAD
             buttonsave.Font = new Font("Times New Roman", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonsave.Location = new Point(170, 533);
+=======
+            buttonsave.Font = new Font("Segoe UI Variable Display Semib", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            buttonsave.Location = new Point(116, 536);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             buttonsave.Name = "buttonsave";
-            buttonsave.Size = new Size(234, 38);
+            buttonsave.Size = new Size(263, 40);
             buttonsave.TabIndex = 10;
             buttonsave.Text = "SAVE AND REQUEST";
             buttonsave.UseVisualStyleBackColor = true;
@@ -215,9 +275,15 @@
             // 
             // textinquary
             // 
+<<<<<<< HEAD
             textinquary.Location = new Point(28, 162);
             textinquary.Name = "textinquary";
             textinquary.Size = new Size(376, 325);
+=======
+            textinquary.Location = new Point(32, 82);
+            textinquary.Name = "textinquary";
+            textinquary.Size = new Size(422, 429);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             textinquary.TabIndex = 9;
             textinquary.Text = "";
             // 
@@ -225,7 +291,11 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label10.Location = new Point(90, 128);
+=======
+            label10.Location = new Point(101, 39);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label10.Name = "label10";
             label10.Size = new Size(12, 20);
             label10.TabIndex = 8;
@@ -235,12 +305,17 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
+<<<<<<< HEAD
             label9.Location = new Point(28, 128);
+=======
+            label9.Location = new Point(32, 39);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             label9.Name = "label9";
             label9.Size = new Size(62, 20);
             label9.TabIndex = 7;
             label9.Text = "Inquary";
             label9.Click += label9_Click;
+<<<<<<< HEAD
             // 
             // panelHeader
             // 
@@ -273,12 +348,14 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(439, 60);
             panel1.TabIndex = 11;
+=======
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             // 
             // PlaceInquries
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(872, 618);
+            ClientSize = new Size(981, 649);
             Controls.Add(splitContainer1);
             Name = "PlaceInquries";
             Text = "PlaceInquries";

@@ -70,15 +70,20 @@
             splitContainer1.Panel2.Controls.Add(txtUsername);
             splitContainer1.Panel2.Controls.Add(label3);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
+<<<<<<< HEAD
             splitContainer1.Size = new Size(951, 540);
             splitContainer1.SplitterDistance = 298;
+=======
+            splitContainer1.Size = new Size(1070, 567);
+            splitContainer1.SplitterDistance = 336;
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             splitContainer1.TabIndex = 1;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(24, 404);
+            label1.Location = new Point(27, 424);
             label1.Name = "label1";
             label1.Size = new Size(279, 53);
             label1.TabIndex = 1;
@@ -86,10 +91,15 @@
             // 
             // pictureBox1
             // 
+<<<<<<< HEAD
             pictureBox1.BackgroundImage = Forms.Properties.Resources.policelogo;
             pictureBox1.Location = new Point(30, 77);
+=======
+            pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
+            pictureBox1.Location = new Point(33, 81);
+>>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(243, 227);
+            pictureBox1.Size = new Size(273, 238);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -98,7 +108,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Times New Roman", 28.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(168, 41);
+            label2.Location = new Point(189, 43);
             label2.Name = "label2";
             label2.Size = new Size(359, 53);
             label2.TabIndex = 7;
@@ -109,7 +119,7 @@
             // 
             txtConnect.AutoSize = true;
             txtConnect.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtConnect.Location = new Point(209, 465);
+            txtConnect.Location = new Point(235, 488);
             txtConnect.Name = "txtConnect";
             txtConnect.Size = new Size(0, 31);
             txtConnect.TabIndex = 6;
@@ -118,9 +128,9 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(284, 413);
+            button1.Location = new Point(320, 434);
             button1.Name = "button1";
-            button1.Size = new Size(135, 44);
+            button1.Size = new Size(152, 46);
             button1.TabIndex = 5;
             button1.Text = "LOG IN";
             button1.UseVisualStyleBackColor = true;
@@ -128,11 +138,11 @@
             // 
             // txtPassword
             // 
-            txtPassword.Location = new Point(209, 277);
+            txtPassword.Location = new Point(235, 291);
             txtPassword.MaxLength = 10;
             txtPassword.Name = "txtPassword";
             txtPassword.PasswordChar = '*';
-            txtPassword.Size = new Size(292, 27);
+            txtPassword.Size = new Size(328, 29);
             txtPassword.TabIndex = 4;
             txtPassword.UseSystemPasswordChar = true;
             // 
@@ -140,7 +150,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(54, 273);
+            label4.Location = new Point(61, 287);
             label4.Name = "label4";
             label4.Size = new Size(145, 31);
             label4.TabIndex = 3;
@@ -148,16 +158,16 @@
             // 
             // txtUsername
             // 
-            txtUsername.Location = new Point(209, 172);
+            txtUsername.Location = new Point(235, 181);
             txtUsername.Name = "txtUsername";
-            txtUsername.Size = new Size(292, 27);
+            txtUsername.Size = new Size(328, 29);
             txtUsername.TabIndex = 2;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Variable Display Semib", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(54, 168);
+            label3.Location = new Point(61, 176);
             label3.Name = "label3";
             label3.Size = new Size(149, 31);
             label3.TabIndex = 1;
@@ -165,9 +175,9 @@
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(951, 540);
+            ClientSize = new Size(1070, 567);
             Controls.Add(splitContainer1);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "LoginForm";
