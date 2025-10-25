@@ -1,7 +1,7 @@
 ﻿
 namespace Forms.UserdashBoard
 {
-    partial class UserDashboard
+    partial class userdashboard
     {
         /// <summary>
         /// Required designer variable.
@@ -53,7 +53,7 @@ namespace Forms.UserdashBoard
             panel1.Controls.Add(buttonHome);
             panel1.Location = new Point(1, 1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(316, 667);
+            panel1.Size = new Size(283, 667);
             panel1.TabIndex = 0;
             panel1.Paint += panel1_Paint;
             // 
@@ -62,7 +62,7 @@ namespace Forms.UserdashBoard
             buttonchangepwd.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonchangepwd.Location = new Point(11, 471);
             buttonchangepwd.Name = "buttonchangepwd";
-            buttonchangepwd.Size = new Size(291, 50);
+            buttonchangepwd.Size = new Size(255, 50);
             buttonchangepwd.TabIndex = 6;
             buttonchangepwd.Text = "CHANGE PASSWORD";
             buttonchangepwd.UseVisualStyleBackColor = true;
@@ -70,13 +70,15 @@ namespace Forms.UserdashBoard
             // 
             // buttonLogout
             // 
+            buttonLogout.BackColor = Color.White;
             buttonLogout.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            buttonLogout.Location = new Point(11, 560);
+            buttonLogout.ForeColor = SystemColors.ControlText;
+            buttonLogout.Location = new Point(11, 570);
             buttonLogout.Name = "buttonLogout";
-            buttonLogout.Size = new Size(291, 50);
+            buttonLogout.Size = new Size(255, 50);
             buttonLogout.TabIndex = 5;
             buttonLogout.Text = "LOG OUT";
-            buttonLogout.UseVisualStyleBackColor = true;
+            buttonLogout.UseVisualStyleBackColor = false;
             buttonLogout.Click += buttonLogout_Click;
             // 
             // buttonInquiries
@@ -84,7 +86,7 @@ namespace Forms.UserdashBoard
             buttonInquiries.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             buttonInquiries.Location = new Point(11, 287);
             buttonInquiries.Name = "buttonInquiries";
-            buttonInquiries.Size = new Size(291, 50);
+            buttonInquiries.Size = new Size(255, 50);
             buttonInquiries.TabIndex = 4;
             buttonInquiries.Text = "PLACE INQUIRIES";
             buttonInquiries.UseVisualStyleBackColor = true;
@@ -95,7 +97,7 @@ namespace Forms.UserdashBoard
             buttonFirearm.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             buttonFirearm.Location = new Point(11, 380);
             buttonFirearm.Name = "buttonFirearm";
-            buttonFirearm.Size = new Size(291, 50);
+            buttonFirearm.Size = new Size(255, 50);
             buttonFirearm.TabIndex = 3;
             buttonFirearm.Text = "REQUEST FIREARM PERMISSION";
             buttonFirearm.UseVisualStyleBackColor = true;
@@ -106,7 +108,7 @@ namespace Forms.UserdashBoard
             buttonPay.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             buttonPay.Location = new Point(11, 108);
             buttonPay.Name = "buttonPay";
-            buttonPay.Size = new Size(291, 50);
+            buttonPay.Size = new Size(255, 50);
             buttonPay.TabIndex = 2;
             buttonPay.Text = "PAY BOUNTY FEE";
             buttonPay.UseVisualStyleBackColor = true;
@@ -117,7 +119,7 @@ namespace Forms.UserdashBoard
             buttonReport.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             buttonReport.Location = new Point(11, 198);
             buttonReport.Name = "buttonReport";
-            buttonReport.Size = new Size(291, 50);
+            buttonReport.Size = new Size(255, 50);
             buttonReport.TabIndex = 1;
             buttonReport.Text = "REQUEST POLLICE REPORT";
             buttonReport.UseVisualStyleBackColor = true;
@@ -128,27 +130,30 @@ namespace Forms.UserdashBoard
             buttonHome.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonHome.Location = new Point(11, 28);
             buttonHome.Name = "buttonHome";
-            buttonHome.Size = new Size(291, 50);
+            buttonHome.Size = new Size(255, 50);
             buttonHome.TabIndex = 0;
-            buttonHome.Text = "HOME";
+            buttonHome.Text = "PROFILE";
             buttonHome.UseVisualStyleBackColor = true;
             buttonHome.Click += buttonHome_Click;
             // 
             // panel2
             // 
-            panel2.Location = new Point(320, 0);
+            panel2.BackgroundImage = Properties.Resources.userimage;
+            panel2.BackgroundImageLayout = ImageLayout.Zoom;
+            panel2.Location = new Point(289, 1);
             panel2.Name = "panel2";
-            panel2.Size = new Size(890, 665);
+            panel2.Size = new Size(1151, 665);
             panel2.TabIndex = 1;
             // 
-            // UserDashboard
+            // userdashboard
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1211, 667);
+            BackColor = Color.FromArgb(192, 192, 255);
+            ClientSize = new Size(1437, 665);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            Name = "UserDashboard";
+            Name = "userdashboard";
             Text = "DashBoard";
             Load += UserDashboard_Load_1;
             panel1.ResumeLayout(false);

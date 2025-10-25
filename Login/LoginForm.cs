@@ -1,9 +1,10 @@
-using Forms.UserdashBoard;  // use the namespace of DashboardForm
-using Forms.UserdashBoard.Dforms;
-using Forms.DataAccess;
 using Forms.BusinessLogic;
+using Forms.DataAccess;
 using Forms.Factories;
 using Forms.Models;
+using Forms.UserdashBoard;  // use the namespace of DashboardForm
+using Forms.UserdashBoard.Dforms;
+using Microsoft.VisualBasic.ApplicationServices;
 
 namespace login
 {
@@ -15,11 +16,17 @@ namespace login
 
         }
 
+        public static class Session
+        {
+            public static int LoggedInUserId { get; set; }
+        }
+
+
 
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string path = @"C:\Users\asus\OneDrive\Desktop\forms\login\Resources\logo.jpg";
+            string path = @"C:\Users\asus\OneDrive\Desktop\PoliceManagement\Login\policelogo.jpeg";
 
             if (File.Exists(path))
             {
@@ -49,14 +56,12 @@ namespace login
 
             if (user != null)
             {
+               // Session.LoggedInUserId = userId;  // userId from DB
+
                 Form dashboard = DashboardFactory.GetDashboard(user);
-<<<<<<< HEAD
-                this.Hide();
-=======
 
                 this.Hide();
 
->>>>>>> d614c90a3dca053b658e8d4f7cfbcb9b1084b15e
                 dashboard.Show();
                 dashboard.FormClosed += (s, args) => this.Close();
                 // // Hide the login form
@@ -65,16 +70,10 @@ namespace login
             {
                 MessageBox.Show("Invalid username or password.", "Login Failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-<<<<<<< HEAD
-
-
-
-
-=======
             
 
 
->>>>>>> d614c90a3dca053b658e8d4f7cfbcb9b1084b15e
+
             
 
             //    // Close this (login) form

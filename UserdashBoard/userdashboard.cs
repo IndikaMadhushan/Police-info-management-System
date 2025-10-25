@@ -1,4 +1,8 @@
-﻿using Forms.UserdashBoard.Dforms;
+﻿using Forms.DataAccess;
+using Forms.Models;
+using Forms.UserdashBoard.Dforms;
+using Forms.UserdashBoard.UserDashboard;
+using login;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -8,20 +12,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Forms.Models;
-using login;
+
 
 namespace Forms.UserdashBoard
 {
 
-    public partial class UserDashboard : Form
+    public partial class userdashboard : Form
     {
         private readonly User _currentUser;
+        private int currentUserId;
 
-        public UserDashboard(User user)
+        public userdashboard(User user)
         {
             InitializeComponent();
             _currentUser = user;
+            currentUserId = user.UserId;
 
         }
 
@@ -55,7 +60,7 @@ namespace Forms.UserdashBoard
 
         private void buttonPay_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new PayBountyFee());
+            LoadFormInPanel(new BountyPaymentForm(currentUserId));
         }
 
         private void buttonReport_Click(object sender, EventArgs e)
@@ -65,17 +70,20 @@ namespace Forms.UserdashBoard
 
         private void buttonInquiries_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new PlaceInquries());
+            LoadFormInPanel(new PlaceInquries(currentUserId));
         }
 
         private void buttonFirearm_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new FireArmPermission());
+            LoadFormInPanel(new FireArmPermission(currentUserId));
         }
 
         private void buttonchangepwd_Click(object sender, EventArgs e)
         {
-            LoadFormInPanel(new ChangePassword());
+            ChangePassword changePasswordForm = new ChangePassword(currentUserId);
+            //changePasswordForm.ShowDialog();
+
+            LoadFormInPanel(changePasswordForm);
         }
 
         private void buttonLogout_Click(object sender, EventArgs e)

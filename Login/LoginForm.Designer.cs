@@ -71,7 +71,7 @@
             splitContainer1.Panel2.Controls.Add(label3);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
             splitContainer1.Size = new Size(951, 540);
-            splitContainer1.SplitterDistance = 299;
+            splitContainer1.SplitterDistance = 298;
             splitContainer1.TabIndex = 1;
             // 
             // label1
@@ -86,7 +86,8 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Location = new Point(29, 77);
+            pictureBox1.BackgroundImage = Forms.Properties.Resources.policelogo;
+            pictureBox1.Location = new Point(30, 77);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(243, 227);
             pictureBox1.TabIndex = 0;
@@ -162,14 +163,14 @@
             label3.TabIndex = 1;
             label3.Text = "USER NAME :";
             // 
-            // Login
+            // LoginForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(951, 540);
             Controls.Add(splitContainer1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Name = "Login";
+            Name = "LoginForm";
             Text = "Pollice Management System";
             Load += Form1_Load;
             splitContainer1.Panel1.ResumeLayout(false);
