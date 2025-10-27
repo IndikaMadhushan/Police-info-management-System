@@ -84,7 +84,7 @@ namespace Forms.UserdashBoard.AdminDashboard
         {
 
         }
-<<<<<<< HEAD
+
 
         private void label14_Click(object sender, EventArgs e)
         {
@@ -95,7 +95,6 @@ namespace Forms.UserdashBoard.AdminDashboard
         {
 
         }
-=======
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
     }
 }

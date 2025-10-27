@@ -54,12 +54,10 @@ namespace Forms.UserdashBoard.Dforms
             pictureBox1 = new PictureBox();
             groupBox1 = new GroupBox();
             richBoxBounty = new RichTextBox();
-<<<<<<< HEAD
             panelHeader = new Panel();
             lblHeader = new Label();
             panel1 = new Panel();
-=======
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -103,7 +101,6 @@ namespace Forms.UserdashBoard.Dforms
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.FromArgb(192, 192, 255);
-<<<<<<< HEAD
             splitContainer1.Panel2.Controls.Add(panel1);
             splitContainer1.Panel2.Controls.Add(groupBox1);
             splitContainer1.Panel2.Controls.Add(textDate);
@@ -111,139 +108,88 @@ namespace Forms.UserdashBoard.Dforms
             splitContainer1.Panel2.Controls.Add(label8);
             splitContainer1.Size = new Size(1124, 611);
             splitContainer1.SplitterDistance = 571;
-=======
-            splitContainer1.Panel2.Controls.Add(groupBox1);
-            splitContainer1.Size = new Size(1264, 642);
-            splitContainer1.SplitterDistance = 643;
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             splitContainer1.TabIndex = 1;
             // 
             // textaddress
             // 
             textaddress.Enabled = false;
-<<<<<<< HEAD
             textaddress.Location = new Point(152, 359);
             textaddress.Multiline = true;
             textaddress.Name = "textaddress";
             textaddress.ReadOnly = true;
             textaddress.Size = new Size(384, 28);
-=======
-            textaddress.Location = new Point(150, 319);
-            textaddress.Multiline = true;
-            textaddress.Name = "textaddress";
-            textaddress.ReadOnly = true;
-            textaddress.Size = new Size(431, 29);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             textaddress.TabIndex = 21;
             textaddress.TextChanged += textaddress_TextChanged;
             // 
             // textDate
             // 
             textDate.Enabled = false;
-<<<<<<< HEAD
             textDate.Location = new Point(149, 81);
             textDate.Name = "textDate";
             textDate.ReadOnly = true;
             textDate.Size = new Size(384, 27);
-=======
-            textDate.Location = new Point(150, 579);
-            textDate.Name = "textDate";
-            textDate.ReadOnly = true;
-            textDate.Size = new Size(431, 29);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             textDate.TabIndex = 20;
             // 
             // textmail
             // 
             textmail.Enabled = false;
-<<<<<<< HEAD
             textmail.Location = new Point(152, 549);
             textmail.Name = "textmail";
             textmail.ReadOnly = true;
             textmail.Size = new Size(384, 27);
-=======
-            textmail.Location = new Point(150, 525);
-            textmail.Name = "textmail";
-            textmail.ReadOnly = true;
-            textmail.Size = new Size(431, 29);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             textmail.TabIndex = 19;
             // 
             // texttel
             // 
             texttel.Enabled = false;
-<<<<<<< HEAD
             texttel.Location = new Point(152, 489);
             texttel.Name = "texttel";
             texttel.ReadOnly = true;
             texttel.Size = new Size(384, 27);
-=======
-            texttel.Location = new Point(150, 456);
-            texttel.Name = "texttel";
-            texttel.ReadOnly = true;
-            texttel.Size = new Size(431, 29);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             texttel.TabIndex = 18;
             // 
             // textjob
             // 
             textjob.Enabled = false;
-<<<<<<< HEAD
             textjob.Location = new Point(152, 428);
             textjob.Multiline = true;
             textjob.Name = "textjob";
             textjob.ReadOnly = true;
             textjob.Size = new Size(384, 28);
-=======
-            textjob.Location = new Point(150, 392);
-            textjob.Multiline = true;
-            textjob.Name = "textjob";
-            textjob.ReadOnly = true;
-            textjob.Size = new Size(431, 29);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             textjob.TabIndex = 17;
             // 
             // textid
             // 
             textid.Enabled = false;
-<<<<<<< HEAD
             textid.Location = new Point(152, 301);
             textid.Name = "textid";
             textid.ReadOnly = true;
             textid.Size = new Size(384, 27);
-=======
-            textid.Location = new Point(150, 258);
-            textid.Name = "textid";
-            textid.ReadOnly = true;
-            textid.Size = new Size(431, 29);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             textid.TabIndex = 16;
             // 
             // textname
             // 
             textname.Enabled = false;
-<<<<<<< HEAD
             textname.Location = new Point(152, 240);
             textname.Name = "textname";
             textname.ReadOnly = true;
             textname.Size = new Size(384, 27);
-=======
-            textname.Location = new Point(150, 194);
-            textname.Name = "textname";
-            textname.ReadOnly = true;
-            textname.Size = new Size(431, 29);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             textname.TabIndex = 15;
             // 
             // label14
             // 
             label14.AutoSize = true;
             label14.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-<<<<<<< HEAD
             label14.Location = new Point(136, 240);
-=======
-            label14.Location = new Point(132, 194);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label14.Name = "label14";
             label14.Size = new Size(12, 20);
             label14.TabIndex = 14;
@@ -253,11 +199,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-<<<<<<< HEAD
             label13.Location = new Point(136, 309);
-=======
-            label13.Location = new Point(132, 267);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label13.Name = "label13";
             label13.Size = new Size(12, 20);
             label13.TabIndex = 13;
@@ -267,11 +210,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label12.AutoSize = true;
             label12.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-<<<<<<< HEAD
             label12.Location = new Point(136, 367);
-=======
-            label12.Location = new Point(132, 328);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label12.Name = "label12";
             label12.Size = new Size(12, 20);
             label12.TabIndex = 12;
@@ -281,11 +221,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-<<<<<<< HEAD
             label11.Location = new Point(136, 428);
-=======
-            label11.Location = new Point(132, 392);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label11.Name = "label11";
             label11.Size = new Size(12, 20);
             label11.TabIndex = 11;
@@ -295,11 +232,9 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-<<<<<<< HEAD
             label10.Location = new Point(136, 493);
-=======
-            label10.Location = new Point(132, 460);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
+
             label10.Name = "label10";
             label10.Size = new Size(12, 20);
             label10.TabIndex = 10;
@@ -309,11 +244,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold);
-<<<<<<< HEAD
             label9.Location = new Point(136, 553);
-=======
-            label9.Location = new Point(132, 529);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label9.Name = "label9";
             label9.Size = new Size(12, 20);
             label9.TabIndex = 9;
@@ -323,11 +255,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             label8.Location = new Point(126, 84);
-=======
-            label8.Location = new Point(132, 588);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label8.Name = "label8";
             label8.Size = new Size(12, 20);
             label8.TabIndex = 8;
@@ -337,11 +266,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             label7.Location = new Point(21, 84);
-=======
-            label7.Location = new Point(14, 588);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label7.Name = "label7";
             label7.Size = new Size(98, 20);
             label7.TabIndex = 7;
@@ -351,11 +277,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             label6.Location = new Point(31, 553);
-=======
-            label6.Location = new Point(14, 529);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label6.Name = "label6";
             label6.Size = new Size(52, 20);
             label6.TabIndex = 6;
@@ -365,11 +288,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             label5.Location = new Point(31, 493);
-=======
-            label5.Location = new Point(14, 460);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label5.Name = "label5";
             label5.Size = new Size(28, 20);
             label5.TabIndex = 5;
@@ -380,11 +300,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             label4.Location = new Point(31, 428);
-=======
-            label4.Location = new Point(14, 392);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label4.Name = "label4";
             label4.Size = new Size(34, 20);
             label4.TabIndex = 4;
@@ -394,11 +311,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             label3.Location = new Point(31, 367);
-=======
-            label3.Location = new Point(14, 328);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label3.Name = "label3";
             label3.Size = new Size(69, 20);
             label3.TabIndex = 3;
@@ -408,11 +322,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             label2.Location = new Point(31, 309);
-=======
-            label2.Location = new Point(14, 267);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label2.Name = "label2";
             label2.Size = new Size(47, 20);
             label2.TabIndex = 2;
@@ -422,11 +333,8 @@ namespace Forms.UserdashBoard.Dforms
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             label1.Location = new Point(31, 240);
-=======
-            label1.Location = new Point(14, 194);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             label1.Name = "label1";
             label1.Size = new Size(57, 20);
             label1.TabIndex = 1;
@@ -436,15 +344,11 @@ namespace Forms.UserdashBoard.Dforms
             // 
             pictureBox1.AccessibleRole = AccessibleRole.OutlineButton;
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-<<<<<<< HEAD
+
             pictureBox1.Location = new Point(185, 66);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(158, 168);
-=======
-            pictureBox1.Location = new Point(187, 12);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(178, 176);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
@@ -453,22 +357,16 @@ namespace Forms.UserdashBoard.Dforms
             // 
             groupBox1.Controls.Add(richBoxBounty);
             groupBox1.Font = new Font("Segoe UI Variable Display Semib", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
-<<<<<<< HEAD
             groupBox1.Location = new Point(21, 146);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(508, 430);
-=======
-            groupBox1.Location = new Point(10, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(590, 625);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             groupBox1.TabIndex = 2;
             groupBox1.TabStop = false;
             groupBox1.Text = "Bounty Details :";
             // 
             // richBoxBounty
             // 
-<<<<<<< HEAD
             richBoxBounty.Location = new Point(12, 25);
             richBoxBounty.Name = "richBoxBounty";
             richBoxBounty.Size = new Size(508, 565);
@@ -507,24 +405,14 @@ namespace Forms.UserdashBoard.Dforms
             panel1.Name = "panel1";
             panel1.Size = new Size(549, 60);
             panel1.TabIndex = 21;
-=======
-            richBoxBounty.Location = new Point(13, 26);
-            richBoxBounty.Name = "richBoxBounty";
-            richBoxBounty.Size = new Size(571, 593);
-            richBoxBounty.TabIndex = 0;
-            richBoxBounty.Text = "";
-            richBoxBounty.TextChanged += richBoxBounty_TextChanged;
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             // 
             // Home
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-<<<<<<< HEAD
             ClientSize = new Size(1124, 611);
-=======
-            ClientSize = new Size(1264, 642);
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             Controls.Add(splitContainer1);
             Name = "Home";
             Text = "Home";
@@ -574,11 +462,9 @@ namespace Forms.UserdashBoard.Dforms
         private TextBox textname;
         private GroupBox groupBox1;
         private RichTextBox richBoxBounty;
-<<<<<<< HEAD
         private Panel panelHeader;
         private Label lblHeader;
         private Panel panel1;
-=======
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
     }
 }
