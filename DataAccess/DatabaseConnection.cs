@@ -15,11 +15,9 @@ namespace Forms.DataAccess
 
         private DatabaseConnection()
         {
-<<<<<<< HEAD
+
             _connectionString = @"Data Source=LAPTOP-1017J42I;Initial Catalog=PoliceInfoManagementDB;Integrated Security=True;TrustServerCertificate=True;";
-=======
-            _connectionString = @"Data Source=Indika\SQLEXPRESS;Initial Catalog=PoliceInfoManagementDB;Integrated Security=True;TrustServerCertificate=True;";
->>>>>>> 5f8a7de4a9b66f0f8425ae0faa07ffca445e934e
+
             
 
         }
