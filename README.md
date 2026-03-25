@@ -1,78 +1,89 @@
-# Police Management System
+# Police Info Management System
 
-## 📌 Project Overview
-The **Police Management System (PMS)** is a desktop-based application designed to digitalize and manage core police administrative services and public interactions. The system enables secure communication between citizens and police authorities while improving efficiency, transparency, and record management.
+A **Police Info Management System** built in **C#** to help manage day-to-day police station information such as complaints, cases, suspects, officers, and basic reporting.  
+This project focuses on organizing data in one place, improving traceability, and reducing manual paperwork.
 
-This system was developed using **C# and .NET Framework** with **MySQL Server** as the backend database, following standard software engineering practices.
 
----
-
-## 🎯 Objectives
-- Digitize police administrative and public service processes  
-- Provide a secure platform for citizens to submit requests and complaints  
-- Improve efficiency and data management within police departments  
-- Implement role-based access for users and police administrators  
 
 ---
 
-## 👥 User Roles
+## What this project does
 
-### 1. Public Users
-- Register using a valid identification number  
-- Securely log in to the system  
-- Apply for firearm license requests  
-- Submit complaints  
-- Request police reports  
-- View submitted request details  
+The system provides a centralized way to:
 
-### 2. Police Administrators
-- Secure login as system administrators  
-- Manage registered users  
-- Review and process firearm requests  
-- Handle complaints and police report requests  
-- Maintain and update system records  
+- Record and maintain police-related information (e.g., complaints, incidents, cases)
+- Track case progress and related entities (people/officers/records)
+- Search/filter stored records quickly
+- Produce basic summaries or reports for operational use
+
 
 ---
 
-## 🔐 Authentication & Authorization
-- Secure login functionality for users and police administrators  
-- User registration based on a unique identification number  
-- Role-based access control to ensure system security  
+## Tech Stack
+
+- **Language:** C# (100%)
+- **Framework:** .NET 
+- **UI (if applicable):** WinForms
+- **Database (if applicable):** SQL Server 
+- **IDE:** Visual Studio 2022
 
 ---
 
-## ⚙️ Core Functionalities
-- User Registration and Login  
-- Police Admin Login  
-- Firearm License Request Management  
-- Complaint Submission and Processing  
-- Police Report Request Handling  
-- Database-driven record management  
+## Features
+
+- **Secure login / role-based access**
+- **Officer management** (add/edit/remove officer records)
+- **Case management** (create cases, update status, assign officers)
+- **Complaint/incident recording**
+- **Search & filtering** (by ID, name, date, status, etc.)
+- **Data validation** to reduce incorrect entries
+- **Basic reporting / summaries** 
+
+
 
 ---
 
-## 🛠️ Technologies Used
-- **Programming Language:** C#  
-- **Framework:** .NET Framework  
-- **Database:** MySQL Server  
-- **Architecture:** Desktop-based Client–Server Architecture  
-- **IDE:** Visual Studio  
+## How to Run
 
----
+### Prerequisites
+- **Windows** 
+- **Visual Studio 2022** 
+- **.NET SDK / .NET Framework**
+- Database installed/configured 
 
-## 🗄️ Database Overview
-The system uses **MySQL Server** to manage:
-- User and admin details  
-- Authentication credentials  
-- Firearm license requests  
-- Complaints and police report records  
+### Steps
 
-A relational database structure is used to ensure data integrity and consistency.
-
----
-
-## 🚀 Installation & Setup
-
-1. Clone the repository:
+1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/IndikaMadhushan/Police-info-management-System.git
+   cd Police-info-management-System
+   ```
+
+2. **Open the solution in Visual Studio**
+   - Open the `.sln` file 
+
+3. **Configure database **
+   - Update your connection string in:
+     - `App.config` or `Web.config` or `appsettings.json` 
+   - Run any SQL scripts located in:
+     - `database/` or `scripts/` 
+
+4. **Restore dependencies**
+   - Visual Studio usually restores automatically
+   - Or via CLI:
+     ```bash
+     dotnet restore
+     ```
+
+5. **Build and run**
+   - In Visual Studio: **Build** → **Build Solution**
+   - Then press **F5** (Start Debugging) or **Ctrl+F5** (Start Without Debugging)
+
+---
+
+## Project Structure
+
+- `src/` – application source code 
+- `docs/` – documentation/screenshots
+- `scripts/` – database or setup scripts
+
